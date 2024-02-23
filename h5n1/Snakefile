@@ -1,9 +1,9 @@
 """This file specifies the entire avian-flu pipeline that will be run, with
 specific parameters for subsampling, tree building, and visualization. In this
 build, you will generate 1 tree: an H5N1 tree for the HA genes. In this simple
-build, clade annotation has been removed. This template should provide a
-reasonable starting place to customize your own build. Simply edit and add
-components to this Snakefile."""
+build, clade annotation and cleavage site annotation have been removed. This
+template should provide a reasonable starting place to customize your own build.
+Simply edit and add components to this Snakefile."""
 
 
 """Here, define your wildcards. To include more subtypes or gene segments, simply
@@ -18,12 +18,12 @@ rule all:
         auspice_json = expand("auspice/flu_avian_{subtype}_{segment}.json", subtype=SUBTYPES, segment=SEGMENTS)
 
 """Specify all input files here. For this build, you'll start with input sequences
-from the example_data folder, which contain metadata information in the
+from the data folder, which contain metadata information in the
 sequence header. Specify here files denoting specific strains to include or drop,
 references sequences, and files for auspice visualization"""
 rule files:
     params:
-        input_sequences = "example_data/{subtype}_{segment}.fasta",
+        input_sequences = "data/{subtype}_{segment}.fasta",
         dropped_strains = "config/dropped_strains_{subtype}.txt",
         include_strains = "config/include_strains_{subtype}.txt",
         reference = "config/reference_{subtype}_{segment}.gb",
