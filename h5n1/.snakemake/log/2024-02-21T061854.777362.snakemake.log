@@ -1,0 +1,165 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count
+-------------  -------
+align                1
+all                  1
+ancestral            1
+cleavage_site        1
+export               1
+filter               1
+parse                1
+refine               1
+traits               1
+translate            1
+tree                 1
+total               11
+
+Select jobs to execute...
+
+[Wed Feb 21 06:18:54 2024]
+Job 6: Parsing fasta into sequences and metadata
+Reason: Missing output files: results/metadata_h5n1_ha.tsv, results/sequences_h5n1_ha.fasta
+
+
+        augur parse             --sequences example_data/h5n1_ha.fasta             --output-sequences results/sequences_h5n1_ha.fasta             --output-metadata results/metadata_h5n1_ha.tsv             --fields strain virus isolate_id date region country division location host subtype originating_lab submitting_lab h5_clade             --prettify-fields region country division location host originating_lab submitting_lab
+        
+[Wed Feb 21 06:18:55 2024]
+Finished job 6.
+1 of 11 steps (9%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:18:55 2024]
+Job 5: 
+        Filtering to
+          - 2 sequence(s) per region country month
+          - excluding strains in config/dropped_strains_h5n1.txt
+          - samples with missing region and country metadata
+          - excluding strains prior to 1996
+        
+Reason: Missing output files: results/filtered_h5n1_ha.fasta; Input files updated by another job: results/metadata_h5n1_ha.tsv, results/sequences_h5n1_ha.fasta
+
+
+        augur filter             --sequences results/sequences_h5n1_ha.fasta             --metadata results/metadata_h5n1_ha.tsv             --exclude config/dropped_strains_h5n1.txt             --include config/include_strains_h5n1.txt             --output results/filtered_h5n1_ha.fasta             --group-by region country month             --sequences-per-group 2             --min-date 1996             --exclude-where host=laboratoryderived host=ferret host=unknown host=other country=? region=?             --min-length 1600             --non-nucleotide
+        
+[Wed Feb 21 06:18:56 2024]
+Finished job 5.
+2 of 11 steps (18%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:18:56 2024]
+Job 4: 
+        Aligning sequences to config/reference_h5n1_ha.gb
+          - filling gaps with N
+        
+Reason: Missing output files: results/aligned_h5n1_ha.fasta; Input files updated by another job: results/filtered_h5n1_ha.fasta
+
+
+        augur align             --sequences results/filtered_h5n1_ha.fasta             --reference-sequence config/reference_h5n1_ha.gb             --output results/aligned_h5n1_ha.fasta             --remove-reference             --nthreads 1
+        
+[Wed Feb 21 06:18:57 2024]
+Finished job 4.
+3 of 11 steps (27%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:18:57 2024]
+Job 10: determining sequences that harbor furin cleavage sites
+Reason: Missing output files: results/cleavage-site_h5n1_ha.json, results/cleavage-site-sequences_h5n1_ha.json; Input files updated by another job: results/aligned_h5n1_ha.fasta
+
+
+        python scripts/annotate-ha-cleavage-site.py             --alignment results/aligned_h5n1_ha.fasta             --furin_site_motif results/cleavage-site_h5n1_ha.json             --cleavage_site_sequence results/cleavage-site-sequences_h5n1_ha.json
+        
+
+[Wed Feb 21 06:18:57 2024]
+Job 3: Building tree
+Reason: Missing output files: results/tree-raw_h5n1_ha.nwk; Input files updated by another job: results/aligned_h5n1_ha.fasta
+
+
+        augur tree             --alignment results/aligned_h5n1_ha.fasta             --output results/tree-raw_h5n1_ha.nwk             --method iqtree             --nthreads 1
+        
+[Wed Feb 21 06:18:58 2024]
+Finished job 10.
+4 of 11 steps (36%) done
+[Wed Feb 21 06:18:59 2024]
+Finished job 3.
+5 of 11 steps (45%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:18:59 2024]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use const coalescent timescale
+          - estimate marginal node dates
+        
+Reason: Missing output files: results/branch-lengths_h5n1_ha.json, results/tree_h5n1_ha.nwk; Input files updated by another job: results/tree-raw_h5n1_ha.nwk, results/metadata_h5n1_ha.tsv, results/aligned_h5n1_ha.fasta
+
+
+        augur refine             --tree results/tree-raw_h5n1_ha.nwk             --alignment results/aligned_h5n1_ha.fasta             --metadata results/metadata_h5n1_ha.tsv             --output-tree results/tree_h5n1_ha.nwk             --output-node-data results/branch-lengths_h5n1_ha.json             --timetree             --coalescent const             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+[Wed Feb 21 06:19:03 2024]
+Finished job 2.
+6 of 11 steps (55%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:19:03 2024]
+Job 7: Inferring ancestral traits for region country
+Reason: Missing output files: results/traits_h5n1_ha.json; Input files updated by another job: results/tree_h5n1_ha.nwk, results/metadata_h5n1_ha.tsv
+
+
+        augur traits             --tree results/tree_h5n1_ha.nwk             --metadata results/metadata_h5n1_ha.tsv             --output results/traits_h5n1_ha.json             --columns region country             --confidence
+        
+
+[Wed Feb 21 06:19:03 2024]
+Job 8: Reconstructing ancestral sequences and mutations
+Reason: Missing output files: results/nt-muts_h5n1_ha.json; Input files updated by another job: results/aligned_h5n1_ha.fasta, results/tree_h5n1_ha.nwk
+
+
+        augur ancestral             --tree results/tree_h5n1_ha.nwk             --alignment results/aligned_h5n1_ha.fasta             --output-node-data results/nt-muts_h5n1_ha.json             --inference joint            --keep-ambiguous
+        
+[Wed Feb 21 06:19:03 2024]
+Finished job 8.
+7 of 11 steps (64%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:19:03 2024]
+Job 9: Translating amino acid sequences
+Reason: Missing output files: results/aa-muts_h5n1_ha.json; Input files updated by another job: results/nt-muts_h5n1_ha.json, results/tree_h5n1_ha.nwk
+
+
+        augur translate             --tree results/tree_h5n1_ha.nwk             --ancestral-sequences results/nt-muts_h5n1_ha.json             --reference-sequence config/reference_h5n1_ha.gb             --output results/aa-muts_h5n1_ha.json
+        
+[Wed Feb 21 06:19:03 2024]
+Finished job 7.
+8 of 11 steps (73%) done
+[Wed Feb 21 06:19:04 2024]
+Finished job 9.
+9 of 11 steps (82%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:19:04 2024]
+Job 1: Exporting data files for for auspice
+Reason: Missing output files: auspice/flu_avian_h5n1_ha.json; Input files updated by another job: results/nt-muts_h5n1_ha.json, results/aa-muts_h5n1_ha.json, results/cleavage-site-sequences_h5n1_ha.json, results/branch-lengths_h5n1_ha.json, results/traits_h5n1_ha.json, results/tree_h5n1_ha.nwk, results/metadata_h5n1_ha.tsv, results/cleavage-site_h5n1_ha.json
+
+
+        augur export v2             --tree results/tree_h5n1_ha.nwk             --metadata results/metadata_h5n1_ha.tsv             --node-data results/branch-lengths_h5n1_ha.json results/traits_h5n1_ha.json results/nt-muts_h5n1_ha.json results/aa-muts_h5n1_ha.json results/cleavage-site_h5n1_ha.json results/cleavage-site-sequences_h5n1_ha.json            --auspice-config config/auspice_config_h5n1.json             --include-root-sequence             --output auspice/flu_avian_h5n1_ha.json
+        
+[Wed Feb 21 06:19:04 2024]
+Finished job 1.
+10 of 11 steps (91%) done
+Select jobs to execute...
+
+[Wed Feb 21 06:19:04 2024]
+localrule all:
+    input: auspice/flu_avian_h5n1_ha.json
+    jobid: 0
+    reason: Input files updated by another job: auspice/flu_avian_h5n1_ha.json
+    resources: tmpdir=/tmp
+
+[Wed Feb 21 06:19:04 2024]
+Finished job 0.
+11 of 11 steps (100%) done
+Complete log: .snakemake/log/2024-02-21T061854.777362.snakemake.log
