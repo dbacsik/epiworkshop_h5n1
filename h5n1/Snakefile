@@ -63,16 +63,6 @@ def traits_columns(w):
     traits = {'h5nx':'region','h5n1': 'region country'}
     return traits[w.subtype]
 
-"""This function allows us to annotate HA sequences with cleavage site information,
-without trying to apply it to the other segments"""
-def node_data_by_wildcards(w):
-    """for ha, include cleavage site data during export; for other segments, do not"""
-    if w.segment == "ha":
-        node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data,rules.cleavage_site.output.cleavage_site_annotations,rules.cleavage_site.output.cleavage_site_sequences]
-    else:
-        node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data]
-    return(node_data)
-
 
 """In this section of the Snakefile, rules are specified for each step of the pipeline.
 Each rule has inputs, outputs, parameters, and the specific text for the commands in
@@ -273,25 +263,6 @@ rule traits:
             --output {output.node_data} \
             --columns {params.columns} \
             --confidence
-        """
-
-"""This is a custom rule developed for the avian influenza builds and is not part
-of the Nextstrain architecture. It uses custom python scripts to determine the
-sequence of amino acids at the HA cleavage site, and annotate those sequences
-for whether they contain a furin cleavage site."""
-rule cleavage_site:
-    message: "determining sequences that harbor furin cleavage sites"
-    input:
-        alignment = "results/aligned_{subtype}_ha.fasta"
-    output:
-        cleavage_site_annotations = "results/cleavage-site_{subtype}_ha.json",
-        cleavage_site_sequences = "results/cleavage-site-sequences_{subtype}_ha.json"
-    shell:
-        """
-        python scripts/annotate-ha-cleavage-site.py \
-            --alignment {input.alignment} \
-            --furin_site_motif {output.cleavage_site_annotations} \
-            --cleavage_site_sequence {output.cleavage_site_sequences}
         """
 
 """This rule exports the results of the pipeline into JSON format, which is required
