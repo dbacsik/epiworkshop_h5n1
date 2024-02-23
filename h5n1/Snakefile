@@ -63,7 +63,6 @@ def traits_columns(w):
     traits = {'h5nx':'region','h5n1': 'region country'}
     return traits[w.subtype]
 
-
 """In this section of the Snakefile, rules are specified for each step of the pipeline.
 Each rule has inputs, outputs, parameters, and the specific text for the commands in
 bash. Rules reference each other, so altering one rule may require changing another
@@ -273,7 +272,7 @@ rule export:
     input:
         tree = rules.refine.output.tree,
         metadata = rules.parse.output.metadata,
-        node_data = node_data_by_wildcards,
+        node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data],
         auspice_config = files.auspice_config
     output:
         auspice_json = "auspice/flu_avian_{subtype}_{segment}.json"
