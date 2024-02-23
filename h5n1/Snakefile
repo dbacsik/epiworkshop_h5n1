@@ -83,8 +83,8 @@ rule parse:
         sequences = "results/sequences_{subtype}_{segment}.fasta",
         metadata = "results/metadata_{subtype}_{segment}.tsv"
     params:
-        fasta_fields =  "strain virus isolate_id date region country division location host subtype originating_lab submitting_lab h5_clade",
-        prettify_fields = "region country division location host originating_lab submitting_lab"
+        fasta_fields =  "strain virus isolate_id date region country",
+        prettify_fields = "region country"
     shell:
         """
         augur parse \
