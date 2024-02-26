@@ -1,58 +1,76 @@
-# nextstrain.org/flu/avian
+# Avian flu quickstart build
 
-This is the Nextstrain build for avian influenza subtypes A/H5N1, A/H5NX, A/H7N9, and A/H9N2.
-The most up-to-date builds of avian influenza can be found [on nextstrain.org](https://nextstrain.org/flu/avian).
-Please see [nextstrain.org/docs](https://nextstrain.org/docs) for details about augur and pathogen builds.
+This is a simplified version of the avian-flu builds that are hosted on Nextstrain. The public avian influenza builds have become somewhat complicated, and include features that are likely unnecessary for most users. For example, we include calls to download data from our databases, and use a separate tool for clade annotation. We have received some requests from users for a simpler build that will immediately work, given a set of example data. This is that build. The intention for this simplified build is to provide a ready to use pipeline for users to use as a baseline to develop their own custom builds, without having to weed through excessive Snakemake documentation or delete parts of the pipeline that are useful only to the Nextstrain team. This build includes the following alterations:
 
-# Building
+1. **A simplified and heavily commented Snakefile** 
+This Snakefile retains the wildcard structure in the full avian-flu build, but removes features that are unnecessary for most users. I've also added in comments throughout the Snakefile that break down the parts of the Snakefile, annotates where inputs and outputs are specified, and explains a few spots that can be edited to customize builds. The main feature that has been removed from this build is clade annotation. Many users will start their builds will pre-annotated sequences, and because the clade annotation significantly complicates the pipeline, it is removed here. 
 
-All 32 builds (4 subtypes x 8 segments) can be build by running `snakemake`. For rapid AWS rebuild run as:
+2. **An input dataset of H5N1 sequences from GenBank**
+The pipeline as currently included in this Snakefile will perform the pipeline beginning with the fasta files in the `example_data` folder. To run with your own custom data, simply put your fasta files into this folder instead.  
 
-    nextstrain build --aws-batch --aws-batch-cpus 16 --aws-batch-memory 28800 . --jobs 16
+3. **Complete output folders**
+These builds are small and based completely off data from Genbank, allowing us to include all of the intermediate files that are generated as part of the pipeline. It is my hope that this allows users to compare steps in the pipeline where they may be encountering errors. 
 
-Please see [nextstrain.org/docs](https://nextstrain.org/docs) for details about augur and pathogen builds.
 
-# Creating a custom build 
-The easiest way to generate your own, custom avian-flu build is to use the  quickstart-build as a starting template. Simply clone the quickstart-build, run with the example data, and edit the Snakefile to customize. This build includes example data and a simplified, heavily annotated Snakefile that goes over the structure of Snakefiles and annotates rules and inputs/outputs that can be modified. This build, with it's own readme, is available [here](https://github.com/nextstrain/avian-flu/tree/master/quickstart-build).
+## To make your own, custom build
+The [Nextstrain docs](https://docs.nextstrain.org/en/latest/index.html) are a fantastic resource for getting started with the Nextstrain pipeline, and include some [great tutorials](https://docs.nextstrain.org/en/latest/install.html) to get you started. There are multiple ways to install and run Nextstrain. Assuming you have successfully installed the nextstrain CLI and runtime environmental via docker or conda, do the following: 
 
-## Features unique to avian flu builds
+1. clone the `avian-flu` repo: 
 
-### cleavage site annotations 
-Influenza virus HA is translated as a single peptide (HA0) that is cleaved to form the mature, functional form (HA1 and HA2). In all human strains and many avian strains, the cleavage site is composed of a single, basic amino acid residue. However, some avian influenza subtypes, particularly H5s, have acquired additional basic residues immediately preceding the HA cleavage site. In some cases, this results in addition of a furin cleavage motif, allowing HA to be cleaved by furin, which is ubiquitously expressed, and allows for viral replication across a range of tissues. The addition of this "polybasic cleavage site" is one of the prime determinants of avian influenza virulence. In these builds, we have annotated whether strains contain a furin cleavage motif, defined here as the sequence `R-X-K/R-R` immediately preceding the start of HA2, where `X` can be any amino acid. We have also added a color by for the cleavage site sequence, which we define here as the 4 bases preceding HA2. 
+`git clone https://github.com/nextstrain/avian-flu.git`
 
-### clade labeling
-H5 viruses are classified into clades, which are currently viewable as a color by on [nextstrain.org](https://nextstrain.org/flu/avian/h5n1/ha?c=h5_label_clade). Because clade annotations are not available in all public databases, we annotate sequences with their most likely clade using a tool developed by Samuel S. Shepard at CDC called [LABEL](https://wonder.cdc.gov/amd/flu/label/). The assigned clade for each H5N1 or H5Nx sequence are available as public tsvs [here](https://github.com/nextstrain/avian-flu/tree/master/clade-labeling).
+2. Navigate to the avian-flu directory: 
 
-To update the `clades.tsv` file with clade annotations for new sequences, run: 
+`cd avian-flu`
 
-`snakemake -s Snakefile.clades -p --cores 1`
+3. Open the `Snakefile` in a text editor, and read through the format and comments. 
 
-To run the builds on without updating the clades file, run: 
+4. Test that the build works with the example data. Perform a dry run to check that the Snakefile will run properly:
+
+`nextstrain build quickstart-build/ --dry-run`
+
+The output should list all the steps that will be performed and the last bit printed out should look like this:
+ 
+<img src="https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/images/check-setup-output.png" alt="drawing" width="600"/>
+
+5. Run the build: 
+
+`nextstrain build quickstart-build/`
+
+6. Visualize the output:
+
+`nextstrain view quickstart-build/auspice`
+
+<img src="https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/images/build-results-tree.png" alt="drawing" width="500"/>
+
+
+#### Ambient runtime environment instructions
+If you installed the Nextstrain runtime environment using the ambient conda environment, do the following: 
+
+1. clone the `avian-flu` repo: 
+
+`git clone https://github.com/nextstrain/avian-flu.git`
+
+2. Navigate to the quickstart directory: 
+
+`cd avian-flu/quickstart-build/`
+
+3. Open the `Snakefile` in a text editor, and read through the format and comments. 
+
+4. Test that the build works with the example data. Perform a dry run to check that the Snakefile will run properly:
+
+`conda activate nextstrain`
+
+`snakemake -p --cores 1 --preview`
+
+5. Run the build: 
 
 `snakemake -p --cores 1`
 
-To string these together and update the `clades.tsv` file for new sequences and then run the builds: 
+6. Visualize the output:
+ 
+`nextstrain view auspice`
 
-`snakemake -s Snakefile.clades -p --cores 1 && snakemake -p --cores 1`
 
-## To modify this build to work with your own data
-Although the simplest way to generate a custom build is via the quickstart build, you are welcome to clone this repo and use it as a starting point for running your own, local builds if you'd like. The [Nextstrain docs](https://docs.nextstrain.org/en/latest/index.html) are a fantastic resource for getting started with the Nextstrain pipeline, and include some [great tutorials](https://docs.nextstrain.org/en/latest/install.html) to get you started. This build is slightly more complicated than other builds, and has a few custom functions in it to accommodate all the features on [nextstrain.org](https://nextstrain.org/flu/avian), and makes use of wildcards for both subtypes and gene segments. If you'd like to adapt this full, non-simplified pipeline here to your own data (which you may want to do if you also want to annotate clades), you would need to make a few changes and additions:
-
-#### 1. fauna / RethinkDB credentials
-This build starts by pulling sequences from our live [fauna](https://github.com/nextstrain/fauna) database (a RethinkDB
-instance). This requires environment variables `RETHINK_HOST` and `RETHINK_AUTH_KEY` to be
-set.
-
-If you don't have access to our database, you can run the build using the example data
-provided in this repository. Before running the build, copy the example sequences into the
-`data/` directory like so:
-
-```
-mkdir data/
-cp example_data/* data/
-```
-
-Then run the the build. If you'd like to consistently run your own data, then you can place your fasta file in `data`. Alternatively, you can alter the `Snakefile` to remove references to our database and add paths to your own files. To do this, remove `rule download`, add paths to your input data (sequences and metadata) in `rule files`, and add those paths as the input to `rule parse`. 
-
-#### 2. clade labeling 
-If you'd like to run clade labeling, you will need to install [LABEL](https://wonder.cdc.gov/amd/flu/label/) yourself. This pipeline assumes that LABEL is located in `avian-flu/flu-amd/`, and should work if you install it into the `avian-flu` directory. If you do not need to label clades, then you can delete `rule add_h5_clade`, the function `metadata_by_wildcards`. You will need to make sure that all references to `metadata` in the pipeline are referencing `metadata_subtype_segment`, not `metadata-with-clade_subtype_segment`, which is generated by `rule add_h5_clade` and adds a new column to the metadata file with clade information. 
+#### A note on metadata customization
+This pipeline is extremely flexible, and can be used to build trees based on any set of metadata you have available for your input data. In the example data, we've included several columns of metadata, but these are not all necessary for you to run a custom build, and you can easily add more. For example, if your sequences have been annotated with clades, add that clade information into the sequence headers and into the `augur parse` rule, and it will be included in the build. Strain name is a required field, and collection date will be necessary for inferring time trees. If you lack information on geography, you can still build a tree, but the map functionality will not work, and you will need to change the subsampling rules. To alter colorby options, edit/add/remove fields in `config/auspice_config_{subtype}.json`.
