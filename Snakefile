@@ -34,33 +34,32 @@ files = rules.files.params
 
 
 """These functions allow for different rules for different wildcards. For example,
-these groupby and sequences_per_group functions will result in h5nx viruses being
-subsampled to 5 sequences per subtype, country,and year, while h5n1 gets will be
+these groupby and sequences_per_group functions will result in h5n1 to be
 subsampled down to 2 sequences per region, country, and month."""
 
 def group_by(w):
-    gb = {'h5nx': 'subtype country year','h5n1': 'region country month'}
+    gb = {'h5n1': 'region country month'}
     return gb[w.subtype]
 
 def sequences_per_group(w):
-    spg = {'h5nx': '5','h5n1': '10'}
+    spg = {'h5n1': '10'}
     return spg[w.subtype]
 
 """The minimum length required for sequences. Sequences shorter than these will be
 subsampled out of the build. Here, we're requiring all segments to be basically
 complete. To include partial genomes, shorten these to your desired length"""
 def min_length(w):
-    len_dict = {"pb2": 2100, "ha":1600}
+    len_dict = {"ha":1600}
     length = len_dict[w.segment]
     return(length)
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
 def min_date(w):
-    date = {'h5nx':'1960','h5n1': '1996'}
+    date = {'h5n1': '1996'}
     return date[w.subtype]
 
 def traits_columns(w):
-    traits = {'h5nx':'region','h5n1': 'region country'}
+    traits = {'h5n1': 'region country'}
     return traits[w.subtype]
 
 """In this section of the Snakefile, rules are specified for each step of the pipeline.
