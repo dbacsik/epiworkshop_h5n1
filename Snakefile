@@ -23,7 +23,7 @@ sequence header. Specify here files denoting specific strains to include or drop
 references sequences, and files for auspice visualization"""
 rule files:
     params:
-        input_sequences = "data/southamerica_ha_seqs.fasta",
+        input_sequences = "data/southamerica_ha_seqs_clean.fasta",
         metadata = "data/southamerica_metadata_clean.tsv",
         dropped_strains = "config/dropped_strains_{subtype}.txt",
         include_strains = "config/include_strains_{subtype}.txt",
