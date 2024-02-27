@@ -8,4 +8,4 @@ The header for the original FASTA file from GISAID has the following format:
 Data is cleaned by (manually running) the Jupyter notebook `clean_metadata.py.ipynb`.
 
 # Pruning
-Manually removed strains labelled `A/Pelecanus/Peru/VFAR-140/2022` because they are duplicate in the dataset.
+Manually removed strains labelled `A/Pelecanus/Peru/VFAR-140/2022` from metadata because they are duplicate in the dataset.
