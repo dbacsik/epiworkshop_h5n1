@@ -1,3 +1,51 @@
 # list any strain names you would definitely like to include in your build here. 1 strain per line
 # example: 
 # A/chicken/Pennsylvania/1/2022
+
+# Venezuela (n=5)
+A/Pelican/Venezuela/Inf9/2022
+A/Pelican/Venezuela/Pel4/2022
+A/Pelican/Venezuela/Pel3/2022
+A/Pelecanus_occidentalis/Venezuela/4S4/2022
+A/Pelecanus_occidentalis/Venezuela/3S4/2022
+
+# Colombia (n=6)
+A/chicken/Magdalena/ICA-3503/2022
+A/chicken/Cordoba/ICA-3499/2022
+A/chicken/Choco/ICA-3504/2022
+A/chicken/Choco/ICA-3502/2022
+A/chicken/Bolivar/ICA-3500/2022
+A/duck/Choco/ICA-3501/2022
+
+# Brazill (n=7)
+A/tern/Espirito_Santo/MAPA-1339N2/2023
+A/frigatebird/Rio_de_Janeiro/MAPA-1532N/2023
+A/sea_lion/Brazil/KU-3594/2023
+A/sea_lion/Brazil/KU-3584/2023
+A/Thalasseus_acuflavidus/Brazil-ES/23ES1A0025/2023
+A/Thalasseus_maximus/Brazil-ES/23ES1A0008/2023
+A/Thalasseus_acuflavidus/Brazil-ES/23ES1A0009/2023
+
+# Ecuador (n=8)
+A/Ecuador/6563/2023
+A/wildbird-Sula-nebouxii/Ecuador/7611/2023_
+A/wildbird-Sula-nebouxii/Ecuador/7607/2023
+A/wildbird-Fregata-magnificens/Ecuador/IC06-4590/2023
+A/wildbird-Fregata-magnificens/Ecuador/IC03-4587/2023
+A/chicken/Ecuador/02/2022
+A/chicken/Ecuador/04/2022
+A/chicken/Ecuador/03/2022
+
+# Uruguay (n=12)
+A/black-necked_swan/Uruguay/UDELAR-014-M3/2023
+A/black-necked_swan/Uruguay/UDELAR-078-M2/2023
+A/backyard_turkey/Uruguay/UDELAR-124-M6/2023
+A/backyard_chicken/Uruguay/UDELAR-040-M7/2023
+A/backyard_chicken/Uruguay/UDELAR-047-M1/2023
+A/backyard_chicken/Uruguay/UDELAR-047-M3/2023
+A/backyard_chicken/Uruguay/UDELAR-124-M1/2023
+A/backyard_chicken/Uruguay/UDELAR-127-M1/2023
+A/backyard_chicken/Uruguay/UDELAR-127-M4/2023
+A/backyard_chicken/Uruguay/UDELAR-144-M3/2023
+A/backyard_chicken/Uruguay/UDELAR-040-M5/2023
+A/backyard_duck/Uruguay/UDELAR-124-M3/2023
