@@ -23,7 +23,8 @@ sequence header. Specify here files denoting specific strains to include or drop
 references sequences, and files for auspice visualization"""
 rule files:
     params:
-        input_sequences = "data/{subtype}_{segment}.fasta",
+        input_sequences = "data/southamerica_ha_seqs.fasta",
+        metadata = "data/southamerica_metadata_clean.tsv",
         dropped_strains = "config/dropped_strains_{subtype}.txt",
         include_strains = "config/include_strains_{subtype}.txt",
         reference = "config/reference_{subtype}_{segment}.gb",
@@ -74,25 +75,18 @@ files. This rule assumes an input fasta file that contains metadata information
 in the header. By specifying the order of those fields in the `fasta_fields` line,
 `augur parse` will separate those fields into labeled columns in the output metadata
 file."""
-rule parse:
-    message: "Parsing fasta into sequences and metadata"
-    input:
-        sequences = files.input_sequences
-    output:
-        sequences = "results/sequences_{subtype}_{segment}.fasta",
-        metadata = "results/metadata_{subtype}_{segment}.tsv"
-    params:
-        fasta_fields =  "strain virus isolate_id date region country",
-        prettify_fields = "region country"
-    shell:
-        """
-        augur parse \
-            --sequences {input.sequences} \
-            --output-sequences {output.sequences} \
-            --output-metadata {output.metadata} \
-            --fields {params.fasta_fields} \
-            --prettify-fields {params.prettify_fields}
-        """
+# rule parse:
+#     message: "Parsing fasta into sequences and metadata"
+#     input:
+#         sequences = files.input_sequences
+#     output:
+#         sequences = "results/sequences_{subtype}_{segment}.fasta",
+#     shell:
+#         """
+#         augur parse \
+#             --sequences {input.sequences} \
+#             --output-sequences {output.sequences} \
+#         """
 
 """This rule specifies how to subsample data for the build, which is highly
 customizable based on your desired tree."""
@@ -106,8 +100,8 @@ rule filter:
           - excluding strains prior to {params.min_date}
         """
     input:
-        sequences = rules.parse.output.sequences,
-        metadata = rules.parse.output.metadata,
+        sequences = files.input_sequences,
+        metadata = files.metadata,
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
@@ -185,7 +179,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.align.output,
-        metadata = rules.parse.output.metadata
+        metadata = files.metadata
     output:
         tree = "results/tree_{subtype}_{segment}.nwk",
         node_data = "results/branch-lengths_{subtype}_{segment}.json"
@@ -248,7 +242,7 @@ rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata
+        metadata = files.metadata
     output:
         node_data = "results/traits_{subtype}_{segment}.json",
     params:
@@ -270,7 +264,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = files.metadata,
         node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data],
         auspice_config = files.auspice_config
     output:
