@@ -23,8 +23,8 @@ sequence header. Specify here files denoting specific strains to include or drop
 references sequences, and files for auspice visualization"""
 rule files:
     params:
-        input_sequences = "data/southamerica_ha_seqs_clean.fasta",
-        metadata = "data/southamerica_metadata_clean.tsv",
+        input_sequences = "data/all_ha_seqs.fasta",
+        metadata = "data/all_metadata.tsv",
         dropped_strains = "config/dropped_strains_{subtype}.txt",
         include_strains = "config/include_strains_{subtype}.txt",
         reference = "config/reference_{subtype}_{segment}.gb",
@@ -43,7 +43,7 @@ def group_by(w):
     return gb[w.subtype]
 
 def sequences_per_group(w):
-    spg = {'h5n1': '10'}
+    spg = {'h5n1': '12'}
     return spg[w.subtype]
 
 """The minimum length required for sequences. Sequences shorter than these will be
@@ -56,7 +56,7 @@ def min_length(w):
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
 def min_date(w):
-    date = {'h5n1': '1996'}
+    date = {'h5n1': '1990'}
     return date[w.subtype]
 
 def traits_columns(w):
