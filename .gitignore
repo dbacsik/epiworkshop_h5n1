@@ -5,12 +5,19 @@ auspice/
 build/
 logs/
 
+# Local workflow dirs
+.ipython/
+data/.ipynb_checkpoints/
+.jupyter/
+.local/
+.npm/
+
+
 # Sensitive environment variables
 environment*
 
 # Snakemake state dir
 .snakemake
-~/h5n1/.snakemake/
 
 # Local config overrides
 /config_local.yaml
