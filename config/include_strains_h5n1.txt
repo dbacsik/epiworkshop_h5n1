@@ -48,3 +48,7 @@ A/backyard_chicken/Uruguay/UDELAR-127-M4/2023
 A/backyard_chicken/Uruguay/UDELAR-144-M3/2023
 A/backyard_chicken/Uruguay/UDELAR-040-M5/2023
 A/backyard_duck/Uruguay/UDELAR-124-M3/2023
+
+# Human samples (n=2)
+A/Chile/25945/2023 #Confirmed: https://wwwnc.cdc.gov/eid/article/30/3/23-1157_article 
+A/Ecuador/6563/2023 #Confirmed: https://academic.oup.com/jtm/article-abstract/30/7/taad130/7295310?redirectedFrom=fulltext
