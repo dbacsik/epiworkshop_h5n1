@@ -11,7 +11,7 @@ add those to these lists, separated by commas"""
 SUBTYPES = ["h5n1"]
 SEGMENTS = ["ha"]
 
-"""This rule tells Snakemake that at the end of the pipeline, you should have
+"""This rule tells Snakemak that at the end of the pipeline, you should have
 generated JSON files in the auspice folder for each subtype and segment."""
 rule all:
     input:
@@ -103,19 +103,18 @@ rule filter:
         sequences = files.input_sequences,
         metadata = files.metadata,
         exclude = files.dropped_strains,
-        include = files.include_strains,
+        include = files.include_strains
     output:
         sequences = "results/filtered_{subtype}_{segment}.fasta"
     params:
-        results_dir = directory("results"),
         group_by = group_by,
         sequences_per_group = sequences_per_group,
         min_date = min_date,
         min_length = min_length,
         exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?"
+
     shell:
         """
-        mkdir -p {params.results_dir} && \
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
