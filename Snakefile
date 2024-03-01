@@ -25,6 +25,8 @@ rule files:
     params:
         input_sequences = "data/all_ha_seqs.fasta",
         metadata = "data/all_metadata.tsv",
+        background_sequences = "data/background_ha_seqs.fasta",
+        background_metadata = "data/background_metadata.tsv",
         dropped_strains = "config/dropped_strains_{subtype}.txt",
         include_strains = "config/include_strains_{subtype}.txt",
         reference = "config/reference_{subtype}_{segment}.gb",
@@ -45,6 +47,10 @@ def group_by(w):
 def sequences_per_group(w):
     spg = {'h5n1': '12'}
     return spg[w.subtype]
+
+"""These variables set the sampling scheme for background data."""
+bg_group_by = 'region country month'
+bg_sequences_per_group = '1'
 
 """The minimum length required for sequences. Sequences shorter than these will be
 subsampled out of the build. Here, we're requiring all segments to be basically
@@ -129,6 +135,58 @@ rule filter:
             --non-nucleotide
         """
 
+"""This rule filters and subsamples background datasets."""
+rule filter_background:
+    message:
+        """
+        Filtering background data to
+          - {params.bg_sequences_per_group} sequence(s) per {params.bg_group_by!s}
+          - excluding strains in {input.exclude}
+          - samples with missing region and country metadata
+          - excluding strains prior to {params.min_date}
+        """
+    input:
+        bg_sequences = files.background_sequences,
+        bg_metadata = files.background_metadata,
+        exclude = files.dropped_strains,
+        include = files.include_strains
+    output:
+        sequences = "results/filtered_bg_{subtype}_{segment}.fasta"
+    params:
+        bg_group_by = bg_group_by,
+        bg_sequences_per_group = bg_sequences_per_group,
+        min_date = min_date,
+        min_length = min_length,
+        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?"
+
+    shell:
+        """
+        augur filter \
+            --sequences {input.bg_sequences} \
+            --metadata {input.bg_metadata} \
+            --exclude {input.exclude} \
+            --include {input.include} \
+            --output {output.sequences} \
+            --group-by {params.bg_group_by} \
+            --sequences-per-group {params.bg_sequences_per_group} \
+            --min-date {params.min_date} \
+            --exclude-where {params.exclude_where} \
+            --min-length {params.min_length} \
+            --non-nucleotide
+        """
+
+rule merge_metadata:
+    message: "Merging metadata"
+    input:
+        metadata = files.metadata,
+        background_metadata = files.background_metadata
+    output:
+        metadata = "results/merged_metadata_{subtype}_{segment}.tsv"
+    shell:
+        """
+        cat {input.metadata} {input.background_metadata} > {output.metadata}
+        """
+
 rule align:
     message:
         """
@@ -136,7 +194,8 @@ rule align:
           - filling gaps with N
         """
     input:
-        sequences = rules.filter.output.sequences,
+        sequences = [rules.filter.output.sequences,
+                     rules.filter_background.output.sequences],
         reference = files.reference
     output:
         alignment = "results/aligned_{subtype}_{segment}.fasta"
@@ -179,7 +238,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.align.output,
-        metadata = files.metadata
+        metadata = rules.merge_metadata.output.metadata
     output:
         tree = "results/tree_{subtype}_{segment}.nwk",
         node_data = "results/branch-lengths_{subtype}_{segment}.json"
@@ -242,7 +301,7 @@ rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
     input:
         tree = rules.refine.output.tree,
-        metadata = files.metadata
+        metadata = rules.merge_metadata.output.metadata
     output:
         node_data = "results/traits_{subtype}_{segment}.json",
     params:
@@ -264,7 +323,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = files.metadata,
+        metadata = rules.merge_metadata.output.metadata,
         node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data],
         auspice_config = files.auspice_config
     output:
