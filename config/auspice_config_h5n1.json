@@ -1,9 +1,10 @@
 {
-  "title": "Real-time tracking of influenza A/H5N1 virus evolution",
+  "title": "Influenza A/H5N1 Outbreak in South America",
   "maintainers": [
-    {"name": "You!", "url": ""}
+    {"name": "David Bacsik and Pablo Tsukayama",
+    "url": "https://investigacion.cayetano.edu.pe/catalogo/saludintegral-genomicamicrobiana/"}
   ],
-  "build_url": "",
+  "build_url": "https://github.com/dbacsik/epiworkshop_h5n1",
   "colorings": [
     {
       "key": "gt",
