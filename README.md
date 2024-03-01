@@ -1,5 +1,5 @@
 # Epi Workshop H5N1
-by [David Bacsik](https://mstp.washington.edu/student/david-bacsik/) in collaboration with [Pablo Tsukayama](https://www.sanger.ac.uk/external_person/tsukayama-pablo/)
+by [David Bacsik](https://mstp.washington.edu/student/david-bacsik/) in collaboration with [Pablo Tsukayama](https://investigacion.cayetano.edu.pe/catalogo/saludintegral-genomicamicrobiana/)
 
 
 This is a repository for analyzing South American H5N1 data. It is being prepared for the UPCH Genomic Epidemiology workshop in March 2024.
