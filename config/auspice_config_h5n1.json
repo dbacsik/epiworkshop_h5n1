@@ -1,9 +1,15 @@
 {
-  "title": "Real-time tracking of influenza A/H5N1 virus evolution",
+  "title": "Global Influenza A/H5N1 Outbreak (2021-Present) in South America",
   "maintainers": [
-    {"name": "You!", "url": ""}
+    {"name": "David Bacsik and Pablo Tsukayama",
+    "url": "https://investigacion.cayetano.edu.pe/catalogo/saludintegral-genomicamicrobiana/"}
   ],
-  "build_url": "",
+  "build_url": "https://github.com/dbacsik/epiworkshop_h5n1",
+  "data_provenance": [
+    {
+      "name": "GISAID"
+    }
+  ],
   "colorings": [
     {
       "key": "gt",

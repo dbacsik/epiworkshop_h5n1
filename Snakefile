@@ -30,7 +30,9 @@ rule files:
         dropped_strains = "config/dropped_strains_{subtype}.txt",
         include_strains = "config/include_strains_{subtype}.txt",
         reference = "config/reference_{subtype}_{segment}.gb",
-        auspice_config = "config/auspice_config_{subtype}.json"
+        auspice_config = "config/auspice_config_{subtype}.json",
+        colors = "config/colors.tsv",
+        lat_longs = "config/lat_longs.tsv"
 
 
 files = rules.files.params
@@ -325,7 +327,9 @@ rule export:
         tree = rules.refine.output.tree,
         metadata = rules.merge_metadata.output.metadata,
         node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data],
-        auspice_config = files.auspice_config
+        auspice_config = files.auspice_config,
+        colors = files.colors,
+        lat_longs = files.lat_longs
     output:
         auspice_json = "auspice/flu_avian_{subtype}_{segment}.json"
     shell:
@@ -335,6 +339,8 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.node_data}\
             --auspice-config {input.auspice_config} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
             --include-root-sequence \
             --output {output.auspice_json}
         """
