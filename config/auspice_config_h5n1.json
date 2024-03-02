@@ -1,10 +1,15 @@
 {
-  "title": "Influenza A/H5N1 Outbreak in South America",
+  "title": "Influenza A/H5N1 Outbreak in South America 2021-Present",
   "maintainers": [
     {"name": "David Bacsik and Pablo Tsukayama",
     "url": "https://investigacion.cayetano.edu.pe/catalogo/saludintegral-genomicamicrobiana/"}
   ],
   "build_url": "https://github.com/dbacsik/epiworkshop_h5n1",
+  "data_provenance": [
+    {
+      "name": "GISAID"
+    }
+  ],
   "colorings": [
     {
       "key": "gt",
