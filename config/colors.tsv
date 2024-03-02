@@ -23,18 +23,18 @@ region	north america	#3977eb
 region	south america	#e4934c
 
 country	antarctica	#bfd3de
-country	chile	#cd4a81
 country	argentina	#e4934c
-country	peru	#53b2ad
-country	united states	#3977eb
-country	canada	#b3b3b3
-country	uruguay	#3e8d62
 country	brazil	#8ede78
-country	ecuador	#6b2bcb
-country	venezuela	#eb4d3b
+country	canada	#b3b3b3
+country	chile	#cd4a81
 country	colombia	#f6c65f
-country	panama	#7f85f2
 country	costa rica	#bd6225
+country	ecuador	#6b2bcb
 country	guatemala	#e78c37
 country	honduras	#88ced2
 country	mexico	#4146c3
+country	panama	#7f85f2
+country	peru	#53b2ad
+country	united states	#3977eb
+country	uruguay	#3e8d62
+country	venezuela	#eb4d3b
