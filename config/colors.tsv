@@ -11,29 +11,30 @@ region	west_asia	#ADBD51
 region	west asia	#ADBD51
 region	africa	#CEB541
 region	europe	#E39B39
-region	south_america	#E56C2F
-region	south america	#E56C2F
+#region	south_america	#E56C2F
+#region	south america	#E56C2F
 #region	north_america	#DC2F24
 #region	north america	#DC2F24
 
 
 # Custom
 region	antarctica	#b3bec4
-region	north america	#4DAEEF
+region	north america	#8ede78
+region	south america	#e78c37
 
 country	antarctica	#b3bec4
-country	chile	#602acc
-country	argentina	#4f47ed
-country	peru	#5570f6
-country	united states	#4DAEEF
-country	canada	#EF4D5D
+country	chile	#e78c37
+country	argentina	#cd4a81
+country	peru	#53b2ad
+country	united states	#8ede78
+country	canada	#7f85f2
 country	uruguay	#88ced2
-country	brazil	#9cddb6
-country	ecuador	#b1e79c
-country	venezuela	#f5ea70
-country	colombia	#dfed79
-country	panama	#f9dc68
+country	brazil	#6b2bcb
+country	ecuador	#3977eb
+country	venezuela	#bd6225
+country	colombia	#4146c3
+country	panama	#3e8d62
 country	costa rica	#f6c65f
 country	guatemala	#e4934c
-country	honduras	#ed7846
+country	honduras	#c6e857
 country	mexico	#eb4d3b
