@@ -5,18 +5,17 @@ build, clade annotation and cleavage site annotation have been removed. This
 template should provide a reasonable starting place to customize your own build.
 Simply edit and add components to this Snakefile."""
 
-
-# """Here, define your wildcards. To include more subtypes or gene segments, simply
-# add those to these lists, separated by commas"""
-# SUBTYPES = ["h5n1"]
-# SEGMENTS = ["ha"]
+"""Replicates to assess reproducibility of subsampling. Using wildcards to
+automatically repeat sampling steps."""
+wildcard_constraints:
+    replicate=".*"
+REPLICATES = ["", "_alt1", "_alt2"]
 
 """This rule tells Snakemak that at the end of the pipeline, you should have
 generated JSON files in the auspice folder for each subtype and segment."""
 rule all:
     input:
-        #auspice = expand("auspice/flu_avian_{subtype}_{segment}.json", subtype=SUBTYPES, segment=SEGMENTS),
-        auspice_github = "auspice/epiworkshop_h5n1.json"
+        auspice_json = expand("auspice/epiworkshop_h5n1{replicate}.json", replicate=REPLICATES)
 
 """Specify all input files here. For this build, you'll start with input sequences
 from the data folder, which contain metadata information in the
@@ -38,6 +37,8 @@ rule files:
 
 files = rules.files.params
 
+"""Traits that should be inferred for reconstructed nodes."""
+traits_columns = 'region'
 
 """Sampling info for samples of interest."""
 group_by = 'region country month'
@@ -47,48 +48,15 @@ sequences_per_group = '12'
 bg_group_by = 'region country month'
 bg_sequences_per_group = '1'
 
+"""Filter criteria."""
 """The minimum length required for sequences. Sequences shorter than these will be
-subsampled out of the build. Here, we're requiring all segments to be basically
-complete. To include partial genomes, shorten these to your desired length"""
-def min_length(w):
-    len_dict = {"ha":1600}
-    length = len_dict["ha"]
-    return(length)
+subsampled out of the build."""
+min_length = 1600
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
 min_date = '1990'
 
-def traits_columns(w):
-    traits = {'h5n1': 'region'}
-    return traits["h5n1"]
-
-"""In this section of the Snakefile, rules are specified for each step of the pipeline.
-Each rule has inputs, outputs, parameters, and the specific text for the commands in
-bash. Rules reference each other, so altering one rule may require changing another
-if they depend on each other for inputs and outputs. Notes are included for
-specific rules."""
-
-
-"""The parse rule is used to separate out sequences and metadata into 2 distinct
-files. This rule assumes an input fasta file that contains metadata information
-in the header. By specifying the order of those fields in the `fasta_fields` line,
-`augur parse` will separate those fields into labeled columns in the output metadata
-file."""
-# rule parse:
-#     message: "Parsing fasta into sequences and metadata"
-#     input:
-#         sequences = files.input_sequences
-#     output:
-#         sequences = "results/sequences_{subtype}_{segment}.fasta",
-#     shell:
-#         """
-#         augur parse \
-#             --sequences {input.sequences} \
-#             --output-sequences {output.sequences} \
-#         """
-
-"""This rule specifies how to subsample data for the build, which is highly
-customizable based on your desired tree."""
+"""This rule specifies how to subsample the data for the region of interest"""
 rule filter:
     message:
         """
@@ -104,7 +72,7 @@ rule filter:
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
-        sequences = "results/filtered_h5n1_ha.fasta"
+        sequences = "results/filtered_h5n1_ha{replicate}.fasta"
     params:
         group_by = group_by,
         sequences_per_group = sequences_per_group,
@@ -144,7 +112,7 @@ rule filter_background:
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
-        sequences = "results/filtered_bg_h5n1_ha.fasta"
+        sequences = "results/filtered_bg_h5n1_ha{replicate}.fasta",
     params:
         bg_group_by = bg_group_by,
         bg_sequences_per_group = bg_sequences_per_group,
@@ -191,7 +159,7 @@ rule align:
                      rules.filter_background.output.sequences],
         reference = files.reference
     output:
-        alignment = "results/aligned_h5n1_ha.fasta"
+        alignment = "results/aligned_h5n1_ha{replicate}.fasta"
     shell:
         """
         augur align \
@@ -208,7 +176,7 @@ rule tree:
     input:
         alignment = rules.align.output.alignment
     output:
-        tree = "results/tree-raw_h5n1_ha.nwk"
+        tree = "results/tree-raw_h5n1_ha{replicate}.nwk"
     params:
         method = "iqtree"
     shell:
@@ -233,8 +201,8 @@ rule refine:
         alignment = rules.align.output,
         metadata = rules.merge_metadata.output.metadata
     output:
-        tree = "results/tree_h5n1_ha.nwk",
-        node_data = "results/branch-lengths_h5n1_ha.json"
+        tree = "results/tree_h5n1_ha{replicate}.nwk",
+        node_data = "results/tree-branch-lengths_h5n1_ha{replicate}.json"
     params:
         coalescent = "const",
         date_inference = "marginal",
@@ -260,7 +228,7 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = rules.align.output
     output:
-        node_data = "results/nt-muts_h5n1_ha.json"
+        node_data = "results/nt-muts_h5n1_ha{replicate}.json"
     params:
         inference = "joint"
     shell:
@@ -280,7 +248,7 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
-        node_data = "results/aa-muts_h5n1_ha.json"
+        node_data = "results/aa-muts_h5n1_ha{replicate}.json"
     shell:
         """
         augur translate \
@@ -296,7 +264,7 @@ rule traits:
         tree = rules.refine.output.tree,
         metadata = rules.merge_metadata.output.metadata
     output:
-        node_data = "results/traits_h5n1_ha.json",
+        node_data = "results/traits_h5n1_ha{replicate}.json"
     params:
         columns = traits_columns,
     shell:
@@ -322,7 +290,7 @@ rule export:
         colors = files.colors,
         lat_longs = files.lat_longs
     output:
-        auspice_json = "auspice/flu_avian_h5n1_ha.json"
+        auspice_json = "auspice/epiworkshop_h5n1{replicate}.json"
     shell:
         """
         augur export v2 \
@@ -332,19 +300,7 @@ rule export:
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
-            --include-root-sequence \
             --output {output.auspice_json}
-        """
-
-rule github_copy:
-    message: "Copying auspice JSON for Github"
-    input:
-        auspice_json = rules.export.output.auspice_json
-    output:
-        auspice_github = "auspice/epiworkshop_h5n1.json"
-    shell:
-        """
-        cp {input.auspice_json} {output.auspice_github}
         """
 
 rule clean:
