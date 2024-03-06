@@ -59,7 +59,7 @@ def min_length(w):
 min_date = '1990'
 
 def traits_columns(w):
-    traits = {'h5n1': 'region country'}
+    traits = {'h5n1': 'region'}
     return traits["h5n1"]
 
 """In this section of the Snakefile, rules are specified for each step of the pipeline.
