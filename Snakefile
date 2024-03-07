@@ -41,8 +41,8 @@ files = rules.files.params
 traits_columns = 'region'
 
 """Sampling info for samples of interest."""
-group_by = 'region country month'
-sequences_per_group = '12'
+group_by = 'region country'
+sequences_per_group = '999'
 
 """Sampling scheme for background data."""
 bg_group_by = 'region country month'
