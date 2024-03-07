@@ -14,4 +14,4 @@ The following results have been confirmed in 3 replicates, with random subsampli
 3. The first sequences detected in South America were in Colombia (2022-10-09) and Peru (2022-11-10).
 4. The epidemic has generally spread from North to South, and has now reached Antarctica.
 
-*N.b.* One replicate showed a transmission from South America into North America, however, I have not seen this in other trees I have produced. I am suspect of this finding and do not believe this is consistent with other groups' results.
+*N.b.* One replicate showed a transmission event from South America into North America, however, I have not seen this in other trees I have produced. I am suspect of this finding and do not believe this is consistent with other groups' results.
