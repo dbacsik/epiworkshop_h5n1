@@ -6,7 +6,9 @@ services:
     image: nextstrain/base@sha256:ea546afb4a1400691be1a3a44adb4e1621346d006b7f5c02f86182abfa5245f3
   jupyter:
     container_name: jupyter
-    image: jupyter/datascience-notebook@sha256:9504f4f4ab7e89b49d61d7be2e9ff8c57870de2050aa4360f55b2e59193f7486
+    build: 
+      context: .
+      dockerfile: jupyter.Dockerfile
     ports:
       - 8888:8888
     volumes:
