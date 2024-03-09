@@ -13,14 +13,13 @@ Sequences are cleaned by (manually running) the python script `sanitize_sequence
 Metadata and sequences are concatenated manually into single file for the region of interest and a single file for background data. The commands are as follows:
 
 1. Metadata for region of interest  
-```cat data/clean/southamerica_metadata_clean.tsv data/clean/antarctica_metadata_clean.tsv > data/all_metadata.tsv```  
+```cat data/clean/southamerica_metadata_clean.tsv data/clean/antarctica_metadata_clean.tsv > data/roi.tsv```  
 
 2. Sequences for region of interest  
-```cat data/clean/southamerica_ha_seqs_clean.fasta data/clean/antarctica_ha_seqs_clean.fasta > data/all_ha_seqs.fasta```
+```cat data/clean/southamerica_ha_seqs_clean.fasta data/clean/antarctica_ha_seqs_clean.fasta > data/roi.fasta```
 
 3. Metadata for background data  
-```cat data/clean/northmerica_metadata_clean.tsv > data/background_metadata.tsv```  
+```cat data/clean/northmerica_metadata_clean.tsv > data/background.tsv```  
 
 4. Sequences for background data
-```cat data/clean/northamerica_ha_seqs_clean.fasta > data/background_ha_seqs.fasta```
-
+```cat data/clean/northamerica_ha_seqs_clean.fasta > data/background.fasta```

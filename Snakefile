@@ -23,14 +23,14 @@ sequence header. Specify here files denoting specific strains to include or drop
 references sequences, and files for auspice visualization"""
 rule files:
     params:
-        input_sequences = "data/all_ha_seqs.fasta",
-        metadata = "data/all_metadata.tsv",
-        background_sequences = "data/background_ha_seqs.fasta",
-        background_metadata = "data/background_metadata.tsv",
-        dropped_strains = "config/dropped_strains_h5n1.txt",
-        include_strains = "config/include_strains_h5n1.txt",
-        reference = "config/reference_h5n1_ha.gb",
-        auspice_config = "config/auspice_config_h5n1.json",
+        input_sequences = "data/roi.fasta",
+        metadata = "data/roi.tsv",
+        background_sequences = "data/background.fasta",
+        background_metadata = "data/background.tsv",
+        dropped_strains = "config/drop_strains.txt",
+        include_strains = "config/include_strains.txt",
+        reference = "config/reference.gb",
+        auspice_config = "config/auspice_config.json",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv"
 
@@ -41,8 +41,8 @@ files = rules.files.params
 traits_columns = 'region'
 
 """Sampling info for samples of interest."""
-group_by = 'region country'
-sequences_per_group = '999'
+group_by = 'region'
+sequences_per_group = '5000'
 
 """Sampling scheme for background data."""
 bg_group_by = 'region country month'
@@ -55,6 +55,20 @@ min_length = 1600
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
 min_date = '1990'
+
+"""This rule produces a single metadata file containing the region of interest and background.
+This is necessary since only one metadata file can be put into augur refine."""
+rule merge_metadata:
+    message: "Merging metadata"
+    input:
+        metadata = files.metadata,
+        background_metadata = files.background_metadata
+    output:
+        metadata = "results/merged_metadata_h5n1_ha.tsv"
+    shell:
+        """
+        cat {input.metadata} {input.background_metadata} > {output.metadata}
+        """
 
 """This rule specifies how to subsample the data for the region of interest"""
 rule filter:
@@ -72,7 +86,7 @@ rule filter:
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
-        sequences = "results/filtered_h5n1_ha{replicate}.fasta"
+        sequences = "results/filtered.fasta"
     params:
         group_by = group_by,
         sequences_per_group = sequences_per_group,
@@ -112,7 +126,7 @@ rule filter_background:
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
-        sequences = "results/filtered_bg_h5n1_ha{replicate}.fasta",
+        sequences = "results/filtered_background{replicate}.fasta",
     params:
         bg_group_by = bg_group_by,
         bg_sequences_per_group = bg_sequences_per_group,
@@ -136,18 +150,6 @@ rule filter_background:
             --non-nucleotide
         """
 
-rule merge_metadata:
-    message: "Merging metadata"
-    input:
-        metadata = files.metadata,
-        background_metadata = files.background_metadata
-    output:
-        metadata = "results/merged_metadata_h5n1_ha.tsv"
-    shell:
-        """
-        cat {input.metadata} {input.background_metadata} > {output.metadata}
-        """
-
 rule align:
     message:
         """
@@ -159,7 +161,7 @@ rule align:
                      rules.filter_background.output.sequences],
         reference = files.reference
     output:
-        alignment = "results/aligned_h5n1_ha{replicate}.fasta"
+        alignment = "results/aligned{replicate}.fasta"
     shell:
         """
         augur align \
@@ -176,7 +178,7 @@ rule tree:
     input:
         alignment = rules.align.output.alignment
     output:
-        tree = "results/tree-raw_h5n1_ha{replicate}.nwk"
+        tree = "results/raw_tree{replicate}.nwk"
     params:
         method = "iqtree"
     shell:
@@ -201,8 +203,8 @@ rule refine:
         alignment = rules.align.output,
         metadata = rules.merge_metadata.output.metadata
     output:
-        tree = "results/tree_h5n1_ha{replicate}.nwk",
-        node_data = "results/tree-branch-lengths_h5n1_ha{replicate}.json"
+        tree = "results/tree{replicate}.nwk",
+        node_data = "results/branch_lengths{replicate}.json"
     params:
         coalescent = "const",
         date_inference = "marginal",
@@ -228,7 +230,7 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = rules.align.output
     output:
-        node_data = "results/nt-muts_h5n1_ha{replicate}.json"
+        node_data = "results/nt_muts{replicate}.json"
     params:
         inference = "joint"
     shell:
@@ -248,7 +250,7 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
-        node_data = "results/aa-muts_h5n1_ha{replicate}.json"
+        node_data = "results/aa_muts{replicate}.json"
     shell:
         """
         augur translate \
@@ -264,7 +266,7 @@ rule traits:
         tree = rules.refine.output.tree,
         metadata = rules.merge_metadata.output.metadata
     output:
-        node_data = "results/traits_h5n1_ha{replicate}.json"
+        node_data = "results/traits{replicate}.json"
     params:
         columns = traits_columns,
     shell:
