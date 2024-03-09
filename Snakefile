@@ -41,8 +41,8 @@ files = rules.files.params
 traits_columns = 'region'
 
 """Sampling info for samples of interest."""
-group_by = 'region country'
-sequences_per_group = '999'
+group_by = 'region'
+sequences_per_group = '5000'
 
 """Sampling scheme for background data."""
 bg_group_by = 'region country month'
@@ -55,6 +55,20 @@ min_length = 1600
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
 min_date = '1990'
+
+"""This rule produces a single metadata file containing the region of interest and background. 
+This is necessary since only one metadata file can be put into augur refine."""
+rule merge_metadata:
+    message: "Merging metadata"
+    input:
+        metadata = files.metadata,
+        background_metadata = files.background_metadata
+    output:
+        metadata = "results/merged_metadata_h5n1_ha.tsv"
+    shell:
+        """
+        cat {input.metadata} {input.background_metadata} > {output.metadata}
+        """
 
 """This rule specifies how to subsample the data for the region of interest"""
 rule filter:
@@ -72,7 +86,7 @@ rule filter:
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
-        sequences = "results/filtered_h5n1_ha{replicate}.fasta"
+        sequences = "results/filtered_h5n1_ha.fasta"
     params:
         group_by = group_by,
         sequences_per_group = sequences_per_group,
@@ -134,18 +148,6 @@ rule filter_background:
             --exclude-where {params.exclude_where} \
             --min-length {params.min_length} \
             --non-nucleotide
-        """
-
-rule merge_metadata:
-    message: "Merging metadata"
-    input:
-        metadata = files.metadata,
-        background_metadata = files.background_metadata
-    output:
-        metadata = "results/merged_metadata_h5n1_ha.tsv"
-    shell:
-        """
-        cat {input.metadata} {input.background_metadata} > {output.metadata}
         """
 
 rule align:
