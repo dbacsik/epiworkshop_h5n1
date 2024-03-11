@@ -10,6 +10,7 @@ wildcard_constraints:
     replicate=".*"
 #REPLICATES = ["", "_alt1", "_alt2"] # uncomment this line to run multiple replicates
 REPLICATES = [""]
+seeds = {"": 0, "_alt1": 1, "_alt2": 2}
 
 """This rule tells Snakemak that at the end of the pipeline, you should have
 generated JSON files in the auspice folder for each subtype and segment."""
@@ -38,11 +39,11 @@ rule files:
 files = rules.files.params
 
 """Traits that should be inferred for reconstructed nodes."""
-traits_columns = 'region'
+traits_columns = 'region country'
 
 """Sampling info for samples of interest."""
-group_by = 'region country month'
-sequences_per_group = '2'
+group_by = 'region country'
+sequences_per_group = '200'
 
 """Sampling scheme for background data."""
 bg_group_by = 'region country month'
@@ -132,8 +133,9 @@ rule filter_background:
         bg_sequences_per_group = bg_sequences_per_group,
         min_date = min_date,
         min_length = min_length,
-        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?"
-
+        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?",
+        replicate = lambda w: w.replicate,
+        seed = lambda w: seeds[w.replicate]
     shell:
         """
         augur filter \
@@ -147,7 +149,8 @@ rule filter_background:
             --min-date {params.min_date} \
             --exclude-where {params.exclude_where} \
             --min-length {params.min_length} \
-            --non-nucleotide
+            --non-nucleotide \
+            --subsample-seed {params.seed}
         """
 
 rule align:
