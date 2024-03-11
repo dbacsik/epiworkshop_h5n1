@@ -1,4 +1,3 @@
-strain	date	virus	region	country	host	isolate_id	submitting_lab	originating_lab
 A/American_wigeon/North_Carolina/AH0182517/2022	2022-01-08	avian_flu	North America	United States	Avian	EPI_ISL_9880015	National Veterinary Services Laboratories - USDA	USDA-NWRC Wildlife Services
 A/mallard/North_Carolina/AH0182886/2022	2022-01-08	avian_flu	North America	United States	Avian	EPI_ISL_9880019	National Veterinary Services Laboratories - USDA	USDA-NWRC Wildlife Services
 A/northern_pintail/North_Carolina/AH0182892/2022	2022-01-08	avian_flu	North America	United States	Avian	EPI_ISL_9880021	National Veterinary Services Laboratories - USDA	USDA-NWRC Wildlife Services
@@ -201,7 +200,7 @@ A/snow_goose/Kansas/W22-260/2022	2022-03-25	avian_flu	North America	United State
 A/common_eiders/Maine/W22-481B/2022	2022-06-12	avian_flu	North America	United States	Avian	EPI_ISL_15214838	?	?
 A/bald_eagle/Florida/W22-153A/2022	2022-02-28	avian_flu	North America	United States	Avian	EPI_ISL_15214839	?	?
 A/common_tern/Maine/W22-480B/2022	2022-06-23	avian_flu	North America	United States	Avian	EPI_ISL_15214841	?	?
-A/Ross's_goose/North_Dakota/N22-08/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_15214843	?	?
+A/Ross-s_goose/North_Dakota/N22-08/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_15214843	?	?
 A/lesser_snow_goose/North_Dakota/ND-10/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_15214845	?	?
 A/snow_goose/Kansas/W22-174B/2022	2022-03-06	avian_flu	North America	United States	Avian	EPI_ISL_15214846	?	?
 A/common_eiders/Maine/W22-481A/2022	2022-06-12	avian_flu	North America	United States	Avian	EPI_ISL_15215193	?	?
@@ -272,7 +271,7 @@ A/chicken/Montana/22-013056-002-original/2022	2022-04-28	avian_flu	North America
 A/chicken/Colorado/22-013057-001-original/2022	2022-04-28	avian_flu	North America	United States	Avian	EPI_ISL_16171467	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/guinea_fowl/Wisconsin/22-013061-003-original/2022	2022-04-28	avian_flu	North America	United States	Avian	EPI_ISL_16171468	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/peacock/Wisconsin/22-013061-004-original/2022	2022-04-28	avian_flu	North America	United States	Avian	EPI_ISL_16171469	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Lady_Amherst's_pheasant/Wisconsin/22-013061-005-original/2022	2022-04-28	avian_flu	North America	United States	Avian	EPI_ISL_16171470	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Lady_Amherst-s_pheasant/Wisconsin/22-013061-005-original/2022	2022-04-28	avian_flu	North America	United States	Avian	EPI_ISL_16171470	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/Minnesota/22-013084-001-original/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_16171471	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/Minnesota/22-013084-002-original/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_16171472	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/chicken/Nebraska/22-013105-001-original/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_16171473	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -332,6 +331,7 @@ A/Bald_Eagle/PEI/FAV-0129-01/2022	2022-03-03	avian_flu	North America	Canada	Avia
 A/Bald_Eagle/PEI/FAV-0172/2022	2022-03-14	avian_flu	North America	Canada	Avian	EPI_ISL_16173527	Canadian Food Inspection Agency	Atlantic Veterinary College, University of Prince Edward Island
 A/Bald_Eagle/ON/FAV-0221-01/2022	2022-04-04	avian_flu	North America	Canada	Avian	EPI_ISL_16173528	Canadian Food Inspection Agency	Ontario Veterinary College, University of Guelph
 A/Bald_eagle/ON/FAV-0221-02/2022	2022-03-22	avian_flu	North America	Canada	Avian	EPI_ISL_16173529	Canadian Food Inspection Agency	Ontario Veterinary College, University of Guelph
+A/Turkey/ON/FAV-0162-144/2022	2022-03-27	avian_flu	North America	Canada	Avian	EPI_ISL_16173530	Canadian Food Inspection Agency	Ontario Veterinary College, University of Guelph
 A/Turkey_Vulture/ON/FAV-0178-01/2022	2022-03-26	avian_flu	North America	Canada	Avian	EPI_ISL_16173531	Canadian Food Inspection Agency	Ontario Veterinary College, University of Guelph
 A/Bald_Eagle/ON/FAV-0178-02/2022	2022-03-24	avian_flu	North America	Canada	Avian	EPI_ISL_16173532	Canadian Food Inspection Agency	Ontario Veterinary College, University of Guelph
 A/Canada_Goose/ON/FAV-0187-01/2022	2022-03-31	avian_flu	North America	Canada	Avian	EPI_ISL_16173537	Canadian Food Inspection Agency	Ontario Veterinary College, University of Guelph
@@ -343,11 +343,12 @@ A/Great_Horned_Owl/AB/FAV-0505-30/2022	2022-04-28	avian_flu	North America	Canada
 A/Canada_Goose/AB/FAV-0505-31/2022	2022-04-29	avian_flu	North America	Canada	Avian	EPI_ISL_16189978	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
 A/Canada_Goose/AB/FAV-0505-36/2022	2022-04-27	avian_flu	North America	Canada	Avian	EPI_ISL_16189979	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
 A/Great_Horned_Owl/AB/FAV-0505-44/2022	2022-04-28	avian_flu	North America	Canada	Avian	EPI_ISL_16189980	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
-A/Franklin's_Gull/AB/FAV-0505-51/2022	2022-04-28	avian_flu	North America	Canada	Avian	EPI_ISL_16189981	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
+A/Franklin-s_Gull/AB/FAV-0505-51/2022	2022-04-28	avian_flu	North America	Canada	Avian	EPI_ISL_16189981	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
 A/Great_Horned_Owl/AB/FAV-0505-52/2022	2022-05-02	avian_flu	North America	Canada	Avian	EPI_ISL_16189983	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
 A/Black-Billed_Magpie/AB/FAV-0505-53/2022	2022-05-05	avian_flu	North America	Canada	Avian	EPI_ISL_16190394	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
 A/Great_Horned_Owl/AB/FAV-0505-57/2022	2022-05-06	avian_flu	North America	Canada	Avian	EPI_ISL_16190395	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
 A/Chicken/AB/FAV-0832/2022	2022-05-30	avian_flu	North America	Canada	Avian	EPI_ISL_16190673	Canadian Food Inspection Agency	Alberta Agriculture and Forestry, Government of Alberta
+A/bottlenose_dolphin/Florida/UFTt2203/2022	2022-03-30	avian_flu	North America	United States	Mammal	EPI_ISL_16212269	?	?
 A/goose/Alabama/22-038970-002-original/2022	2022-12-01	avian_flu	North America	United States	Avian	EPI_ISL_16271814	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/chicken/Alabama/22-038970-003-original/2022	2022-12-01	avian_flu	North America	United States	Avian	EPI_ISL_16271815	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/duck/Alabama/22-038970-004-original/2022	2022-12-01	avian_flu	North America	United States	Avian	EPI_ISL_16271816	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -738,6 +739,11 @@ A/Caspian_tern/Washington/23-023703-002-original/2023	2023-07-31	avian_flu	North
 A/Caspian_tern/Washington/23-024996-001-original/2023	2023-08-11	avian_flu	North America	United States	Avian	EPI_ISL_18311020	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/Caspian_tern/Washington/23-025001-001-original/2023	2023-08-11	avian_flu	North America	United States	Avian	EPI_ISL_18311021	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/Caspian_tern/Washington/23-025001-004-original/2023	2023-08-11	avian_flu	North America	United States	Avian	EPI_ISL_18311022	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/harbor_seal/Washington/23-025744-001-original/2023	2023-08-19	avian_flu	North America	United States	Mammal	EPI_ISL_18311023	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/harbor_seal/Washington/23-025744-002-original/2023	2023-08-19	avian_flu	North America	United States	Mammal	EPI_ISL_18311024	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/harbor_seal/Washington/23-025991-001-original/2023	2023-08-25	avian_flu	North America	United States	Mammal	EPI_ISL_18311025	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/harbor_seal/Washington/23-026504-001-original/2023	2023-08-29	avian_flu	North America	United States	Mammal	EPI_ISL_18311027	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/harbor_seal/Washington/23-026504-002-original/2023	2023-08-29	avian_flu	North America	United States	Mammal	EPI_ISL_18311028	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/Chicken/BC/AIVPHL-151/2022	2022-04-25	avian_flu	North America	Canada	Avian	EPI_ISL_18663673	Public Health Agency of Canada	BC Centre for Disease Control
 A/turkey/Minnesota/23-031338-001-original/2023	2023-10-11	avian_flu	North America	United States	Avian	EPI_ISL_18695151	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/South_Dakota/23-031328-001-original/2023	2023-10-14	avian_flu	North America	United States	Avian	EPI_ISL_18695152	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -1240,66 +1246,66 @@ A/Snow_Goose/Colorado/USDA-008935-004/2022	2022-03-18	avian_flu	North America	Un
 A/Royal_Tern/Florida/USDA-010506-002/2022	2022-03-17	avian_flu	North America	United States	Avian	EPI_ISL_18132387	?	?
 A/Red-tailed_Hawk/North_Dakota/USDA-011220-001/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132388	?	?
 A/Muscovy_Duck/Florida/USDA-011808-002/2022	2022-04-13	avian_flu	North America	United States	Avian	EPI_ISL_18132389	?	?
-A/Ross's_Goose/North_Dakota/USDA-011039-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132390	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011039-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132390	?	?
 A/Royal_Tern/Florida/USDA-010506-001/2022	2022-03-17	avian_flu	North America	United States	Avian	EPI_ISL_18132391	?	?
 A/Red-tailed_Hawk/North_Dakota/USDA-011223-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132392	?	?
 A/Muscovy_Duck/Florida/USDA-011808-001/2022	2022-04-13	avian_flu	North America	United States	Avian	EPI_ISL_18132393	?	?
-A/Ross's_Goose/North_Dakota/USDA-011037-004/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132394	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011037-004/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132394	?	?
 A/Royal_Tern/Florida/USDA-009056-001/2022	2022-03-21	avian_flu	North America	United States	Avian	EPI_ISL_18132395	?	?
 A/Red-tailed_Hawk/North_Dakota/USDA-011565-001/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_18132396	?	?
 A/Muscovy_Duck/Florida/USDA-010682-003/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132397	?	?
-A/Ross's_Goose/North_Dakota/USDA-011035-001/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132398	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011035-001/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132398	?	?
 A/Royal_Tern/Florida/USDA-008226-001/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132399	?	?
 A/Red-tailed_Hawk/North_Dakota/USDA-011565-002/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_18132400	?	?
 A/Muscovy_Duck/Florida/USDA-010682-002/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132401	?	?
-A/Ross's_Goose/Nebraska/USDA-006793-001/2022	2022-03-04	avian_flu	North America	United States	Avian	EPI_ISL_18132402	?	?
+A/Ross-s_Goose/Nebraska/USDA-006793-001/2022	2022-03-04	avian_flu	North America	United States	Avian	EPI_ISL_18132402	?	?
 A/Royal_Tern/Florida/USDA-005590-002/2022	2022-02-18	avian_flu	North America	United States	Avian	EPI_ISL_18132403	?	?
 A/Redhead/Michigan/USDA-009361-008/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132404	?	?
 A/Muscovy_Duck/Florida/USDA-010679-003/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132405	?	?
-A/Ross's_Goose/Missouri/USDA-012338-012/2022	2022-03-01	avian_flu	North America	United States	Avian	EPI_ISL_18132406	?	?
+A/Ross-s_Goose/Missouri/USDA-012338-012/2022	2022-03-01	avian_flu	North America	United States	Avian	EPI_ISL_18132406	?	?
 A/Royal_Tern/Florida/USDA-005590-001/2022	2022-02-18	avian_flu	North America	United States	Avian	EPI_ISL_18132407	?	?
 A/Redhead/Michigan/USDA-009361-007/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132408	?	?
 A/Muscovy_Duck/Florida/USDA-010679-002/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132409	?	?
-A/Ross's_Goose/Missouri/USDA-007472-003/2022	2022-03-01	avian_flu	North America	United States	Avian	EPI_ISL_18132410	?	?
-A/Ross's_Goose/South_Dakota/USDA-008384-004/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132411	?	?
+A/Ross-s_Goose/Missouri/USDA-007472-003/2022	2022-03-01	avian_flu	North America	United States	Avian	EPI_ISL_18132410	?	?
+A/Ross-s_Goose/South_Dakota/USDA-008384-004/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132411	?	?
 A/Redhead/Michigan/USDA-009361-004/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132412	?	?
-A/Ross's_Goose/Missouri/USDA-006328-019/2022	2022-02-22	avian_flu	North America	United States	Avian	EPI_ISL_18132414	?	?
-A/Ross's_Goose/South_Dakota/USDA-008384-002/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132415	?	?
+A/Ross-s_Goose/Missouri/USDA-006328-019/2022	2022-02-22	avian_flu	North America	United States	Avian	EPI_ISL_18132414	?	?
+A/Ross-s_Goose/South_Dakota/USDA-008384-002/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132415	?	?
 A/Redhead/Michigan/USDA-009361-003/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132416	?	?
 A/Muscovy_Duck/Florida/USDA-012787-001/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18132417	?	?
-A/Ross's_Goose/Minnesota/USDA-012029-001/2022	2022-04-14	avian_flu	North America	United States	Avian	EPI_ISL_18132418	?	?
-A/Ross's_Goose/South_Dakota/USDA-008384-001/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132419	?	?
+A/Ross-s_Goose/Minnesota/USDA-012029-001/2022	2022-04-14	avian_flu	North America	United States	Avian	EPI_ISL_18132418	?	?
+A/Ross-s_Goose/South_Dakota/USDA-008384-001/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132419	?	?
 A/Red-tailed_Hawk/Wyoming/USDA-013182-001/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18132420	?	?
 A/Redhead/Michigan/USDA-009361-009/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132421	?	?
-A/Ross's_Goose/Minnesota/USDA-011227-001/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132422	?	?
-A/Ross's_Goose/North_Dakota/USDA-011578-009/2022	2022-04-10	avian_flu	North America	United States	Avian	EPI_ISL_18132423	?	?
+A/Ross-s_Goose/Minnesota/USDA-011227-001/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132422	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011578-009/2022	2022-04-10	avian_flu	North America	United States	Avian	EPI_ISL_18132423	?	?
 A/Pelican/Missouri/USDA-012338-020/2022	2022-03-01	avian_flu	North America	United States	Avian	EPI_ISL_18132424	?	?
-A/Ross's_Goose/Minnesota/USDA-011226-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132425	?	?
-A/Ross's_Goose/North_Dakota/USDA-011578-001/2022	2022-04-10	avian_flu	North America	United States	Avian	EPI_ISL_18132426	?	?
+A/Ross-s_Goose/Minnesota/USDA-011226-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132425	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011578-001/2022	2022-04-10	avian_flu	North America	United States	Avian	EPI_ISL_18132426	?	?
 A/Peregrine_Falcon/Iowa/USDA-012093-001/2022	2022-04-15	avian_flu	North America	United States	Avian	EPI_ISL_18132427	?	?
-A/Ross's_Goose/Kansas/USDA-009804-001/2022	2022-03-12	avian_flu	North America	United States	Avian	EPI_ISL_18132428	?	?
-A/Ross's_Goose/North_Dakota/USDA-011569-004/2022	2022-04-07	avian_flu	North America	United States	Avian	EPI_ISL_18132429	?	?
+A/Ross-s_Goose/Kansas/USDA-009804-001/2022	2022-03-12	avian_flu	North America	United States	Avian	EPI_ISL_18132428	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011569-004/2022	2022-04-07	avian_flu	North America	United States	Avian	EPI_ISL_18132429	?	?
 A/Red-tailed_Hawk/Iowa/USDA-013050-001/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_18132430	?	?
-A/Ross's_Goose/North_Dakota/USDA-009481-001/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132431	?	?
-A/Ross's_Goose/North_Dakota/USDA-011563-002/2022	2022-04-07	avian_flu	North America	United States	Avian	EPI_ISL_18132432	?	?
+A/Ross-s_Goose/North_Dakota/USDA-009481-001/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132431	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011563-002/2022	2022-04-07	avian_flu	North America	United States	Avian	EPI_ISL_18132432	?	?
 A/Red-tailed_Hawk/Iowa/USDA-011298-001/2022	2022-04-13	avian_flu	North America	United States	Avian	EPI_ISL_18132433	?	?
-A/Ross's_Goose/Iowa/USDA-008378-001/2022	2022-03-15	avian_flu	North America	United States	Avian	EPI_ISL_18132434	?	?
-A/Ross's_Goose/North_Dakota/USDA-011218-005/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132435	?	?
+A/Ross-s_Goose/Iowa/USDA-008378-001/2022	2022-03-15	avian_flu	North America	United States	Avian	EPI_ISL_18132434	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011218-005/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132435	?	?
 A/Red-tailed_Hawk/Indiana/USDA-011949-002/2022	2022-04-14	avian_flu	North America	United States	Avian	EPI_ISL_18132436	?	?
 A/chicken/Delaware/USDA-006945-001/2022	2022-03-07	avian_flu	North America	United States	Avian	EPI_ISL_18132437	?	?
-A/Ross's_Goose/Iowa/USDA-007766-003/2022	2022-03-08	avian_flu	North America	United States	Avian	EPI_ISL_18132438	?	?
+A/Ross-s_Goose/Iowa/USDA-007766-003/2022	2022-03-08	avian_flu	North America	United States	Avian	EPI_ISL_18132438	?	?
 A/Sanderling/Massachusetts/USDA-007696-004/2022	2022-03-03	avian_flu	North America	United States	Avian	EPI_ISL_18132439	?	?
 A/Red-tailed_Hawk/Indiana/USDA-011949-001/2022	2022-04-14	avian_flu	North America	United States	Avian	EPI_ISL_18132440	?	?
 A/chicken/Delaware/USDA-005260-001/2022	2022-02-21	avian_flu	North America	United States	Avian	EPI_ISL_18132441	?	?
-A/Ross's_Goose/Iowa/USDA-007551-001/2022	2022-03-08	avian_flu	North America	United States	Avian	EPI_ISL_18132442	?	?
+A/Ross-s_Goose/Iowa/USDA-007551-001/2022	2022-03-08	avian_flu	North America	United States	Avian	EPI_ISL_18132442	?	?
 A/Sanderling/Massachusetts/USDA-007696-005/2022	2022-03-04	avian_flu	North America	United States	Avian	EPI_ISL_18132443	?	?
 A/Red-tailed_Hawk/Colorado/USDA-012769-001/2022	2022-04-20	avian_flu	North America	United States	Avian	EPI_ISL_18132444	?	?
 A/chicken/Colorado/USDA-013057-001/2022	2022-04-28	avian_flu	North America	United States	Avian	EPI_ISL_18132445	?	?
-A/Ross's_Goose/Illinois/USDA-007691-001/2022	2022-03-06	avian_flu	North America	United States	Avian	EPI_ISL_18132446	?	?
+A/Ross-s_Goose/Illinois/USDA-007691-001/2022	2022-03-06	avian_flu	North America	United States	Avian	EPI_ISL_18132446	?	?
 A/Sanderling/Massachusetts/USDA-007696-007/2022	2022-03-06	avian_flu	North America	United States	Avian	EPI_ISL_18132447	?	?
 A/Red-shouldered_Hawk/North_Carolina/USDA-006530-001/2022	2022-02-01	avian_flu	North America	United States	Avian	EPI_ISL_18132448	?	?
 A/chicken/Colorado/USDA-012308-003/2022	2022-04-19	avian_flu	North America	United States	Avian	EPI_ISL_18132449	?	?
-A/Ross's_Goose/Colorado/USDA-008935-005/2022	2022-03-18	avian_flu	North America	United States	Avian	EPI_ISL_18132450	?	?
+A/Ross-s_Goose/Colorado/USDA-008935-005/2022	2022-03-18	avian_flu	North America	United States	Avian	EPI_ISL_18132450	?	?
 A/Sanderling/Massachusetts/USDA-007696-008/2022	2022-03-06	avian_flu	North America	United States	Avian	EPI_ISL_18132451	?	?
 A/Red-shouldered_Hawk/Minnesota/USDA-012931-010/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18132452	?	?
 A/chicken/Colorado/USDA-012308-002/2022	2022-04-19	avian_flu	North America	United States	Avian	EPI_ISL_18132453	?	?
@@ -1319,16 +1325,16 @@ A/Ring-necked_Duck/Michigan/USDA-009361-011/2022	2022-03-23	avian_flu	North Amer
 A/Snow_Goose/Iowa/USDA-008719-002/2022	2022-03-22	avian_flu	North America	United States	Avian	EPI_ISL_18132467	?	?
 A/Poultry/Kansas/USDA-007391-001/2022	2022-03-09	avian_flu	North America	United States	Avian	EPI_ISL_18132468	?	?
 A/Wood_Duck/Wisconsin/USDA-011820-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132469	?	?
-A/Ross's_Goose/Iowa/USDA-008376-002/2022	2022-03-15	avian_flu	North America	United States	Avian	EPI_ISL_18132470	?	?
+A/Ross-s_Goose/Iowa/USDA-008376-002/2022	2022-03-15	avian_flu	North America	United States	Avian	EPI_ISL_18132470	?	?
 A/Snow_Goose/Iowa/USDA-008719-001/2022	2022-03-22	avian_flu	North America	United States	Avian	EPI_ISL_18132471	?	?
 A/Wood_Duck/Wisconsin/USDA-011240-001/2022	2022-03-29	avian_flu	North America	United States	Avian	EPI_ISL_18132472	?	?
 A/Ring-billed_Gull/Florida/USDA-007915-012/2022	2022-03-07	avian_flu	North America	United States	Avian	EPI_ISL_18132473	?	?
 A/Snow_Goose/Iowa/USDA-008376-001/2022	2022-03-15	avian_flu	North America	United States	Avian	EPI_ISL_18132474	?	?
 A/Wood_Duck/Tennessee/USDA-005907-002/2022	2022-02-13	avian_flu	North America	United States	Avian	EPI_ISL_18132475	?	?
-A/Ross's_Goose/North_Dakota/USDA-009481-017/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132476	?	?
+A/Ross-s_Goose/North_Dakota/USDA-009481-017/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132476	?	?
 A/Snow_Goose/Iowa/USDA-007764-001/2022	2022-03-08	avian_flu	North America	United States	Avian	EPI_ISL_18132477	?	?
 A/Wood_Duck/North_Carolina/USDA-003829-001/2022	2022-01-29	avian_flu	North America	United States	Avian	EPI_ISL_18132478	?	?
-A/Ross's_Goose/North_Dakota/USDA-009481-019/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132479	?	?
+A/Ross-s_Goose/North_Dakota/USDA-009481-019/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132479	?	?
 A/turkey/South_Dakota/USDA-006792-002/2022	2022-03-04	avian_flu	North America	United States	Avian	EPI_ISL_18132736	?	?
 A/turkey/Minnesota/USDA-011141-001/2022	2022-04-11	avian_flu	North America	United States	Avian	EPI_ISL_18132737	?	?
 A/turkey/South_Dakota/USDA-009023-001/2022	2022-03-24	avian_flu	North America	United States	Avian	EPI_ISL_18132738	?	?
@@ -1751,74 +1757,74 @@ A/duck/Louisiana/UGAI22-3875/2022	2022-09-23	avian_flu	North America	United Stat
 A/cat/Nebraska/23-010184-001-original/2023	2023-03-30	avian_flu	North America	United States	Mammal	EPI_ISL_17821770	National Veterinary Services Laboratories - USDA	Nebraska Veterinary Diagnostic Center
 A/Snow_Goose/Colorado/USDA-009742-001/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132480	?	?
 A/Wood_Duck/New_York/USDA-011188-001/2022	2022-04-11	avian_flu	North America	United States	Avian	EPI_ISL_18132481	?	?
-A/Ross's_Goose/North_Dakota/USDA-011034-001/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132482	?	?
-A/Ross's_Goose/North_Dakota/USDA-011218-004/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132483	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011034-001/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132482	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011218-004/2022	2022-04-06	avian_flu	North America	United States	Avian	EPI_ISL_18132483	?	?
 A/Wood_Duck/Missouri/USDA-012338-023/2022	2022-04-07	avian_flu	North America	United States	Avian	EPI_ISL_18132484	?	?
-A/Ross's_Goose/North_Dakota/USDA-011033-002/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132486	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011033-002/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132486	?	?
 A/turkey/Wisconsin/USDA-012974-001/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_18132487	?	?
 A/Snow_Goose/Colorado/USDA-008935-006/2022	2022-03-18	avian_flu	North America	United States	Avian	EPI_ISL_18132488	?	?
 A/Wood_Duck/Minnesota/USDA-012773-003/2022	2022-04-15	avian_flu	North America	United States	Avian	EPI_ISL_18132489	?	?
-A/Ross's_Goose/North_Dakota/USDA-011033-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132490	?	?
+A/Ross-s_Goose/North_Dakota/USDA-011033-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132490	?	?
 A/turkey/Wisconsin/USDA-012973-001/2022	2022-04-25	avian_flu	North America	United States	Avian	EPI_ISL_18132491	?	?
 A/Snow_Goose/Colorado/USDA-008935-003/2022	2022-03-18	avian_flu	North America	United States	Avian	EPI_ISL_18132492	?	?
 A/chicken/Delaware/USDA-006945-004/2022	2022-03-07	avian_flu	North America	United States	Avian	EPI_ISL_18132493	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-025/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132494	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-025/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132494	?	?
 A/turkey/Wisconsin/USDA-011508-001/2022	2022-04-13	avian_flu	North America	United States	Avian	EPI_ISL_18132495	?	?
 A/Snow_Goose/Colorado/USDA-008935-002/2022	2022-03-18	avian_flu	North America	United States	Avian	EPI_ISL_18132496	?	?
 A/chicken/Delaware/USDA-008054-001/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132497	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-024/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132498	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-024/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132498	?	?
 A/Snow_Goose/Colorado/USDA-008935-001/2022	2022-03-18	avian_flu	North America	United States	Avian	EPI_ISL_18132499	?	?
 A/turkey/Wisconsin/USDA-010935-002/2022	2022-04-10	avian_flu	North America	United States	Avian	EPI_ISL_18132500	?	?
 A/chicken/Delaware/USDA-008054-003/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132501	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-023/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132502	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-023/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132502	?	?
 A/Sharp-shinned_Hawk/Missouri/USDA-012338-002/2022	2022-03-11	avian_flu	North America	United States	Avian	EPI_ISL_18132503	?	?
 A/turkey/Wisconsin/USDA-010935-001/2022	2022-04-10	avian_flu	North America	United States	Avian	EPI_ISL_18132504	?	?
 A/chicken/Delaware/USDA-008054-004/2022	2022-03-16	avian_flu	North America	United States	Avian	EPI_ISL_18132505	?	?
 A/Sandhill_Crane/North_Dakota/USDA-013131-001/2022	2022-04-21	avian_flu	North America	United States	Avian	EPI_ISL_18132506	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-022/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132507	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-022/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132507	?	?
 A/turkey/Utah/USDA-012960-001/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_18132508	?	?
 A/chicken/Iowa/USDA-009819-002/2022	2022-03-31	avian_flu	North America	United States	Avian	EPI_ISL_18132509	?	?
 A/Sanderling/New_York/USDA-011587-001/2022	2022-04-11	avian_flu	North America	United States	Avian	EPI_ISL_18132510	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-021/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132511	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-021/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132511	?	?
 A/turkey/South_Dakota/USDA-010770-002/2022	2022-04-07	avian_flu	North America	United States	Avian	EPI_ISL_18132512	?	?
 A/chicken/Iowa/USDA-009819-001/2022	2022-03-31	avian_flu	North America	United States	Avian	EPI_ISL_18132513	?	?
-A/Ross's_Goose/North_Dakota/USDA-009481-018/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132514	?	?
+A/Ross-s_Goose/North_Dakota/USDA-009481-018/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132514	?	?
 A/Sanderling/New_York/USDA-005646-001/2022	2022-02-21	avian_flu	North America	United States	Avian	EPI_ISL_18132515	?	?
 A/Vulture/Wyoming/USDA-011672-001/2022	2022-04-13	avian_flu	North America	United States	Avian	EPI_ISL_18132516	?	?
 A/chicken/Iowa/USDA-009287-001/2022	2022-03-28	avian_flu	North America	United States	Avian	EPI_ISL_18132517	?	?
 A/Sanderling/Massachusetts/USDA-011403-001/2022	2022-03-04	avian_flu	North America	United States	Avian	EPI_ISL_18132518	?	?
 A/Vulture/Wyoming/USDA-012060-001/2022	2022-04-18	avian_flu	North America	United States	Avian	EPI_ISL_18132519	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-020/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132520	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-020/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132520	?	?
 A/chicken/Iowa/USDA-009180-002/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132521	?	?
 A/Wild_turkey/Montana/USDA-012657-001/2022	2022-04-12	avian_flu	North America	United States	Avian	EPI_ISL_18132522	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-018/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132523	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-018/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132523	?	?
 A/chicken/Iowa/USDA-009180-001/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132524	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-017/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132525	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-017/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132525	?	?
 A/Wild_turkey/Montana/USDA-012657-002/2022	2022-04-12	avian_flu	North America	United States	Avian	EPI_ISL_18132526	?	?
 A/chicken/Iowa/USDA-008176-005/2022	2022-03-17	avian_flu	North America	United States	Avian	EPI_ISL_18132527	?	?
-A/Ross's_Goose/North_Dakota/USDA-010036-006/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132528	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010036-006/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132528	?	?
 A/Wood_Duck/Minnesota/USDA-012022-002/2022	2022-04-14	avian_flu	North America	United States	Avian	EPI_ISL_18132529	?	?
 A/chicken/Iowa/USDA-008176-004/2022	2022-03-17	avian_flu	North America	United States	Avian	EPI_ISL_18132530	?	?
-A/Ross's_Goose/North_Dakota/USDA-010036-005/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132531	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010036-005/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132531	?	?
 A/Wood_Duck/Minnesota/USDA-012003-002/2022	2022-04-18	avian_flu	North America	United States	Avian	EPI_ISL_18132532	?	?
 A/chicken/Iowa/USDA-008176-003/2022	2022-03-17	avian_flu	North America	United States	Avian	EPI_ISL_18132533	?	?
 A/Wood_Duck/Minnesota/USDA-012000-003/2022	2022-04-18	avian_flu	North America	United States	Avian	EPI_ISL_18132534	?	?
-A/Ross's_Goose/North_Dakota/USDA-010036-003/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132535	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010036-003/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132535	?	?
 A/chicken/North_Carolina/USDA-010298-002/2022	2022-04-04	avian_flu	North America	United States	Avian	EPI_ISL_18132536	?	?
 A/Wood_Duck/Minnesota/USDA-012759-003/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_18132537	?	?
 A/Wood_Duck/Minnesota/USDA-011225-001/2022	2022-04-05	avian_flu	North America	United States	Avian	EPI_ISL_18132538	?	?
-A/Ross's_Goose/North_Dakota/USDA-010036-002/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132539	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010036-002/2022	2022-03-25	avian_flu	North America	United States	Avian	EPI_ISL_18132539	?	?
 A/chicken/Pennsylvania/USDA-011921-002/2022	2022-04-18	avian_flu	North America	United States	Avian	EPI_ISL_18132540	?	?
 A/chicken/Iowa/USDA-007376-012/2022	2022-03-10	avian_flu	North America	United States	Avian	EPI_ISL_18132541	?	?
-A/Ross's_Goose/North_Dakota/USDA-009482-001/2022	2022-03-22	avian_flu	North America	United States	Avian	EPI_ISL_18132542	?	?
+A/Ross-s_Goose/North_Dakota/USDA-009482-001/2022	2022-03-22	avian_flu	North America	United States	Avian	EPI_ISL_18132542	?	?
 A/Wood_Duck/Minnesota/USDA-009381-001/2022	2022-03-24	avian_flu	North America	United States	Avian	EPI_ISL_18132543	?	?
 A/chicken/Pennsylvania/USDA-012091-001/2022	2022-04-19	avian_flu	North America	United States	Avian	EPI_ISL_18132544	?	?
 A/chicken/Iowa/USDA-007376-005/2022	2022-03-10	avian_flu	North America	United States	Avian	EPI_ISL_18132545	?	?
 A/Wood_Duck/Michigan/USDA-012056-009/2022	2022-04-14	avian_flu	North America	United States	Avian	EPI_ISL_18132546	?	?
-A/Ross's_Goose/North_Dakota/USDA-009481-021/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132547	?	?
+A/Ross-s_Goose/North_Dakota/USDA-009481-021/2022	2022-03-23	avian_flu	North America	United States	Avian	EPI_ISL_18132547	?	?
 A/chicken/Pennsylvania/USDA-012092-003/2022	2022-04-19	avian_flu	North America	United States	Avian	EPI_ISL_18132548	?	?
 A/chicken/Iowa/USDA-007376-003/2022	2022-03-10	avian_flu	North America	United States	Avian	EPI_ISL_18132549	?	?
-A/Ross's_Goose/North_Dakota/USDA-010663-019/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132550	?	?
+A/Ross-s_Goose/North_Dakota/USDA-010663-019/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18132550	?	?
 A/Wood_Duck/Michigan/USDA-011517-001/2022	2022-04-11	avian_flu	North America	United States	Avian	EPI_ISL_18132551	?	?
 A/chicken/Pennsylvania/USDA-012092-005/2022	2022-04-19	avian_flu	North America	United States	Avian	EPI_ISL_18132552	?	?
 A/chicken/Iowa/USDA-007376-001/2022	2022-03-10	avian_flu	North America	United States	Avian	EPI_ISL_18132553	?	?
@@ -2146,11 +2152,11 @@ A/Duck/Florida/USDA-006447-001/2022	2022-03-03	avian_flu	North America	United St
 A/Green-winged_Teal/North_Carolina/USDA-004372-001/2022	2022-02-05	avian_flu	North America	United States	Avian	EPI_ISL_18133338	?	?
 A/Merganser/Pennsylvania/USDA-008909-001/2022	2022-03-22	avian_flu	North America	United States	Avian	EPI_ISL_18133339	?	?
 A/Cormorant/Illinois/USDA-010979-013/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18133341	?	?
-A/Cooper's_Hawk/Minnesota/USDA-012931-001/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18133342	?	?
+A/Cooper-s_Hawk/Minnesota/USDA-012931-001/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18133342	?	?
 A/Cormorant/Illinois/USDA-010979-009/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18133345	?	?
-A/Cooper's_Hawk/Minnesota/USDA-012668-014/2022	2022-04-25	avian_flu	North America	United States	Avian	EPI_ISL_18133346	?	?
+A/Cooper-s_Hawk/Minnesota/USDA-012668-014/2022	2022-04-25	avian_flu	North America	United States	Avian	EPI_ISL_18133346	?	?
 A/Gull/Florida/USDA-007915-006/2022	2022-03-01	avian_flu	North America	United States	Avian	EPI_ISL_18133347	?	?
-A/Cooper's_Hawk/Wisconsin/USDA-009404-002/2022	2022-03-13	avian_flu	North America	United States	Avian	EPI_ISL_18133349	?	?
+A/Cooper-s_Hawk/Wisconsin/USDA-009404-002/2022	2022-03-13	avian_flu	North America	United States	Avian	EPI_ISL_18133349	?	?
 A/Common_Raven/Connecticut/USDA-009204-001/2022	2022-03-24	avian_flu	North America	United States	Avian	EPI_ISL_18133350	?	?
 A/Duck/Indiana/USDA-011343-001/2022	2022-04-12	avian_flu	North America	United States	Avian	EPI_ISL_18133353	?	?
 A/Common_Loon/Florida/USDA-009801-001/2022	2022-03-31	avian_flu	North America	United States	Avian	EPI_ISL_18133354	?	?
@@ -2186,16 +2192,16 @@ A/goose/Illinois/USDA-008379-001/2022	2022-03-16	avian_flu	North America	United 
 A/goose/South_Dakota/USDA-008571-003/2022	2022-03-14	avian_flu	North America	United States	Avian	EPI_ISL_18133396	?	?
 A/Great_Horned_Owl/Minnesota/USDA-013128-003/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_18133397	?	?
 A/goose/Delaware/USDA-004745-001/2022	2022-02-04	avian_flu	North America	United States	Avian	EPI_ISL_18133398	?	?
-A/Cooper's_Hawk/Minnesota/USDA-013128-004/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_18133399	?	?
+A/Cooper-s_Hawk/Minnesota/USDA-013128-004/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_18133399	?	?
 A/Great_Horned_Owl/Minnesota/USDA-013128-001/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_18133400	?	?
 A/goose/Colorado/USDA-013125-001/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_18133401	?	?
-A/Cooper's_Hawk/New_York/USDA-010033-001/2022	2022-03-31	avian_flu	North America	United States	Avian	EPI_ISL_18133402	?	?
+A/Cooper-s_Hawk/New_York/USDA-010033-001/2022	2022-03-31	avian_flu	North America	United States	Avian	EPI_ISL_18133402	?	?
 A/Great_Horned_Owl/Minnesota/USDA-012931-007/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18133403	?	?
 A/goose/Colorado/USDA-010377-001/2022	2022-04-01	avian_flu	North America	United States	Avian	EPI_ISL_18133404	?	?
-A/Cooper's_Hawk/North_Dakota/USDA-011572-001/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_18133405	?	?
+A/Cooper-s_Hawk/North_Dakota/USDA-011572-001/2022	2022-04-08	avian_flu	North America	United States	Avian	EPI_ISL_18133405	?	?
 A/Great_Horned_Owl/Minnesota/USDA-012931-006/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18133406	?	?
 A/Brown_Pelican/North_Carolina/USDA-007917-001/2022	2022-02-20	avian_flu	North America	United States	Avian	EPI_ISL_18133407	?	?
-A/Cooper's_Hawk/North_Dakota/USDA-013145-003/2022	2022-04-21	avian_flu	North America	United States	Avian	EPI_ISL_18133408	?	?
+A/Cooper-s_Hawk/North_Dakota/USDA-013145-003/2022	2022-04-21	avian_flu	North America	United States	Avian	EPI_ISL_18133408	?	?
 A/Great_Horned_Owl/Minnesota/USDA-012931-005/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_18133409	?	?
 A/Brown_Pelican/Florida/USDA-007313-001/2022	2022-03-04	avian_flu	North America	United States	Avian	EPI_ISL_18133410	?	?
 A/Duck/Montana/USDA-013055-007/2022	2022-04-27	avian_flu	North America	United States	Avian	EPI_ISL_18133411	?	?
@@ -2545,7 +2551,7 @@ A/bald_eagle/North_Carolina/W22-229/2022	2022-03-12	avian_flu	North America	Unit
 A/Canada_goose/Wyoming/22-011671-001-original/2022	2022-04-13	avian_flu	North America	United States	Avian	EPI_ISL_15078237	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/Iowa/22-012098-001-original/2022	2022-04-20	avian_flu	North America	United States	Avian	EPI_ISL_15078238	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/black_vulture/Maryland/22-012407-001-original/2022	2022-04-21	avian_flu	North America	United States	Avian	EPI_ISL_15078239	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Cooper's_hawk/Minnesota/22-012931-001-original/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_15078240	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Cooper-s_hawk/Minnesota/22-012931-001-original/2022	2022-04-26	avian_flu	North America	United States	Avian	EPI_ISL_15078240	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/bald_eagle/Wyoming/22-013015-001-original/2022	2022-04-22	avian_flu	North America	United States	Avian	EPI_ISL_15078241	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/chicken/Michigan/22-013961-001-original/2022	2022-05-04	avian_flu	North America	United States	Avian	EPI_ISL_15078244	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/fox/Michigan/22-014536-004-original/2022	2022-04-22	avian_flu	North America	United States	Mammal	EPI_ISL_15078245	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -2712,7 +2718,7 @@ A/hawk/Kansas/W22-1155/2022	2022-12-05	avian_flu	North America	United States	Avi
 A/red-tailed_hawk/Kansas/W22-1226/2022	2022-12-05	avian_flu	North America	United States	Avian	EPI_ISL_17471324	?	?
 A/eagle/Tennessee/W23-003/2022	2022-12-29	avian_flu	North America	United States	Avian	EPI_ISL_17471371	?	?
 A/American_green-winged_teal/Texas/UGAI22-3462/2022	2022-09-21	avian_flu	North America	United States	Avian	EPI_ISL_17471493	?	?
-A/Cooper's_hawk/Kansas/W22-1206/2022	2022-12-02	avian_flu	North America	United States	Avian	EPI_ISL_17471576	?	?
+A/Cooper-s_hawk/Kansas/W22-1206/2022	2022-12-02	avian_flu	North America	United States	Avian	EPI_ISL_17471576	?	?
 A/great-tailed_grackle/Kansas/W22-1223C/2022	2022-12-13	avian_flu	North America	United States	Avian	EPI_ISL_17471577	?	?
 A/brown_pelican/North_Carolina/W23-019/2022	2022-12-20	avian_flu	North America	United States	Avian	EPI_ISL_17471579	?	?
 A/double-crested_cormorant/North_Carolina/W22-1215C/2022	2022-12-06	avian_flu	North America	United States	Avian	EPI_ISL_17471580	?	?
@@ -3019,7 +3025,7 @@ A/turkey/South_Dakota/23-029852-001-original/2023	2023-10-02	avian_flu	North Ame
 A/bald_eagle/Oregon/23-028286-001-original/2023	2023-09-07	avian_flu	North America	United States	Avian	EPI_ISL_18690642	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/bald_eagle/Unknown/23-029035-005-original/2022	2022-11-22	avian_flu	North America	United States	Avian	EPI_ISL_18690645	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/bald_eagle/Unknown/23-029035-007-original/2023	2023	avian_flu	North America	United States	Avian	EPI_ISL_18690646	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Swainson's_hawk/Montana/23-029229-001-original/2023	2023-09-20	avian_flu	North America	United States	Avian	EPI_ISL_18690651	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Swainson-s_hawk/Montana/23-029229-001-original/2023	2023-09-20	avian_flu	North America	United States	Avian	EPI_ISL_18690651	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/Utah/23-030211-002-original/2023	2023-10-04	avian_flu	North America	United States	Avian	EPI_ISL_18691719	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/Utah/23-030211-003-original/2023	2023-10-04	avian_flu	North America	United States	Avian	EPI_ISL_18691723	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey/Utah/23-030214-001-original/2023	2023-10-04	avian_flu	North America	United States	Avian	EPI_ISL_18691731	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -3229,7 +3235,7 @@ A/turkey_vulture/Montana/23-016828-001-original/2023	2023-04-11	avian_flu	North 
 A/turkey_vulture/Pennsylvania/23-015073-001-original/2023	2023-03-17	avian_flu	North America	United States	Avian	EPI_ISL_17964977	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/peregrine_falcon/Pennsylvania/23-016471-001-original/2023	2023-04-03	avian_flu	North America	United States	Avian	EPI_ISL_17964976	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/American_crow/New_York/23-016152-002-original/2023	2023-05-18	avian_flu	North America	United States	Avian	EPI_ISL_17964975	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Cooper's_hawk/Montana/23-016105-001-original/2023	2023-04-16	avian_flu	North America	United States	Avian	EPI_ISL_17964974	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Cooper-s_hawk/Montana/23-016105-001-original/2023	2023-04-16	avian_flu	North America	United States	Avian	EPI_ISL_17964974	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/American_raven/New_York/23-015413-001-original/2023	2023-05-03	avian_flu	North America	United States	Avian	EPI_ISL_17964972	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/great_horned_owl/Colorado/23-015245-001-original/2023	2023-05-09	avian_flu	North America	United States	Avian	EPI_ISL_17964971	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/black_vulture/Pennsylvania/23-015076-001-original/2023	2023-04-06	avian_flu	North America	United States	Avian	EPI_ISL_17964970	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -3242,12 +3248,12 @@ A/great_horned_owl/Wyoming/23-014892-001-original/2023	2023-04-13	avian_flu	Nort
 A/red-tailed_hawk/New_York/23-014343-001-original/2023	2023-05-01	avian_flu	North America	United States	Avian	EPI_ISL_17964962	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey_vulture/Utah/23-014335-001-original/2023	2023-04-28	avian_flu	North America	United States	Avian	EPI_ISL_17964961	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey_vulture/Utah/23-014334-001-original/2023	2023-04-28	avian_flu	North America	United States	Avian	EPI_ISL_17964960	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Swainson's_hawk/Colorado/23-014329-001-original/2023	2023-05-02	avian_flu	North America	United States	Avian	EPI_ISL_17964959	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Swainson-s_hawk/Colorado/23-014329-001-original/2023	2023-05-02	avian_flu	North America	United States	Avian	EPI_ISL_17964959	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/red-tailed_hawk/New_York/23-014131-001-original/2023	2023-05-03	avian_flu	North America	United States	Avian	EPI_ISL_17964958	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/Canada_goose/New_York/23-014011-001-original/2023	2023-04-27	avian_flu	North America	United States	Avian	EPI_ISL_17964957	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/American_crow/New_York/23-014010-001-original/2023	2023-04-27	avian_flu	North America	United States	Avian	EPI_ISL_17964956	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/red-tailed_hawk/New_York/23-014008-001-original/2023	2023-04-28	avian_flu	North America	United States	Avian	EPI_ISL_17964955	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Cooper'ss_hawk/Wyoming/23-013975-001-original/2023	2023-04-29	avian_flu	North America	United States	Avian	EPI_ISL_17964954	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Cooper-ss_hawk/Wyoming/23-013975-001-original/2023	2023-04-29	avian_flu	North America	United States	Avian	EPI_ISL_17964954	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey_vulture/Wyoming/23-013715-001-original/2023	2023-04-19	avian_flu	North America	United States	Avian	EPI_ISL_17964953	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/Canada_goose/New_York/23-013244-001-original/2023	2023-04-21	avian_flu	North America	United States	Avian	EPI_ISL_17964952	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/red-tailed_hawk/New_York/23-013242-001-original/2023	2023-04-21	avian_flu	North America	United States	Avian	EPI_ISL_17964951	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -3328,7 +3334,7 @@ A/Canada_goose/Pennsylvania/23-006011-003-original/2023	2023-02-15	avian_flu	Nor
 A/Canada_goose/Pennsylvania/23-006011-002-original/2023	2023-02-15	avian_flu	North America	United States	Avian	EPI_ISL_17964872	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/Canada_goose/Pennsylvania/23-006011-001-original/2023	2023-02-15	avian_flu	North America	United States	Avian	EPI_ISL_17964871	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/bald_eagle/Maryland/23-005987-001-original/2023	2023-02-21	avian_flu	North America	United States	Avian	EPI_ISL_17964870	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Cooper's_hawk/Colorado/23-005887-001-original/2023	2023-02-18	avian_flu	North America	United States	Avian	EPI_ISL_17964869	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Cooper-s_hawk/Colorado/23-005887-001-original/2023	2023-02-18	avian_flu	North America	United States	Avian	EPI_ISL_17964869	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/great_horned_owl/Colorado/23-005885-001-original/2023	2023-02-17	avian_flu	North America	United States	Avian	EPI_ISL_17964868	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/turkey_vulture/California/23-005883-001-original/2023	2023-02-01	avian_flu	North America	United States	Avian	EPI_ISL_17964867	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/great_horned_owl/California/23-005879-001-original/2023	2023-02-01	avian_flu	North America	United States	Avian	EPI_ISL_17964866	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -3339,7 +3345,7 @@ A/American_crow/New_York/23-005695-001-original/2023	2023-02-20	avian_flu	North 
 A/great_horned_owl/Colorado/23-005620-001-original/2023	2023-02-14	avian_flu	North America	United States	Avian	EPI_ISL_17964861	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/great_horned_owl/Colorado/23-005619-001-original/2023	2023-02-14	avian_flu	North America	United States	Avian	EPI_ISL_17964860	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/red-tailed_hawk/Colorado/23-005618-001-original/2023	2023-02-14	avian_flu	North America	United States	Avian	EPI_ISL_17964859	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Cooper's_s_hawk/Colorado/23-005617-001-original/2023	2023-02-14	avian_flu	North America	United States	Avian	EPI_ISL_17964858	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Cooper-s_s_hawk/Colorado/23-005617-001-original/2023	2023-02-14	avian_flu	North America	United States	Avian	EPI_ISL_17964858	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/red-tailed_hawk/New_York/23-005536-001-original/2023	2023-02-11	avian_flu	North America	United States	Avian	EPI_ISL_17964857	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/sanderling/California/23-005401-001-original/2023	2023-02-14	avian_flu	North America	United States	Avian	EPI_ISL_17964856	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/red-tailed_hawk/Wyoming/23-005384-001-original/2023	2023-02-09	avian_flu	North America	United States	Avian	EPI_ISL_17964855	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
@@ -3351,7 +3357,7 @@ A/American_crow/New_York/23-004806-001-original/2023	2023-02-08	avian_flu	North 
 A/great_horned_owl/Colorado/23-004706-001-original/2023	2023-02-06	avian_flu	North America	United States	Avian	EPI_ISL_17964849	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/magpie/Colorado/23-004705-001-original-/2023	2023-02-07	avian_flu	North America	United States	Avian	EPI_ISL_17964848	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/black_vulture/Virginia/23-004611-001-original/2023	2023-02-06	avian_flu	North America	United States	Avian	EPI_ISL_17964847	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
-A/Cooper's_hawk/New_Mexico/23-004581-001-original/2023	2023-02-04	avian_flu	North America	United States	Avian	EPI_ISL_17964846	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
+A/Cooper-s_hawk/New_Mexico/23-004581-001-original/2023	2023-02-04	avian_flu	North America	United States	Avian	EPI_ISL_17964846	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/brown_pelican/Florida/23-004148-001-original/2023	2023-02-01	avian_flu	North America	United States	Avian	EPI_ISL_17964845	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/duck/Washington/22-016021-002-original/2022	2022-05-22	avian_flu	North America	United States	Avian	EPI_ISL_16244030	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
 A/duck/Washington/22-016021-001-original/2022	2022-05-22	avian_flu	North America	United States	Avian	EPI_ISL_16244029	National Veterinary Services Laboratories - USDA	National Veterinary Services Laboratories - USDA
