@@ -116,6 +116,7 @@ A/dolphin/Peru/PIU-002/2022	2022-11-22	avian_flu	South America	Peru	Mammal	EPI_I
 A/Sea_Lion/Peru/LIM-SER036/2023	2023-01-23	avian_flu	South America	Peru	Mammal	EPI_ISL_18054502	?	?
 A/sea_lion/Arica_y_Parinacota/240270-1/2023	2023-03-01	avian_flu	South America	Chile	Mammal	EPI_ISL_17885976	?	?
 A/sea_lion/Tarapaca/240524-2/2023	2023-03-07	avian_flu	South America	Chile	Mammal	EPI_ISL_17885975	?	?
+A/Pelecanus/Peru/VFAR-140/2022	2022-12	avian_flu	South America	Peru	?	EPI_ISL_17165223	?	?
 A/Pelican/Chile/227023-1/2022	2022-12-07	avian_flu	South America	Chile	?	EPI_ISL_17050893	?	?
 A/Pelican/Chile/7087-1/2022	2022-12-07	avian_flu	South America	Chile	?	EPI_ISL_17012018	?	?
 A/Pelican/Chile/6924-1/2022	2022-12-06	avian_flu	South America	Chile	?	EPI_ISL_17011963	?	?
@@ -255,6 +256,7 @@ A/chicken/Peru/LIM-INS-003/2022	2022-11-29	avian_flu	South America	Peru	Avian	EP
 A/chicken/Peru/LAM-INS-002/2022	2022-11-28	avian_flu	South America	Peru	Avian	EPI_ISL_16249681	Instituto Nacional de Salud Peru	Servicio Nacional de Sanidad Agraria del Perú - SENASA
 A/duck/Peru/LAM-INS-015/2023	2023-09-20	avian_flu	South America	Peru	Avian	EPI_ISL_18497950	Instituto Nacional de Salud Peru	Servicio Nacional de Sanidad Agraria del Perú - SENASA
 A/duck/Peru/LAM-INS-014/2023	2023-09-26	avian_flu	South America	Peru	Avian	EPI_ISL_18497946	Instituto Nacional de Salud Peru	Servicio Nacional de Sanidad Agraria del Perú - SENASA
+strain	date	virus	region	country	host	isolate_id	submitting_lab	originating_lab
 A/Brown_skua/Bird_Island/128287/2023	2023-10-08	avian_flu	Antarctica	Antarctica	Avian	EPI_ISL_18439562	Animal and Plant Health Agency (APHA) 	Animal and Plant Health Agency (APHA) 
 A/Brown_skua/Bird_Island/128288/2023	2023-10-08	avian_flu	Antarctica	Antarctica	Avian	EPI_ISL_18439563	Animal and Plant Health Agency (APHA) 	Animal and Plant Health Agency (APHA) 
 A/Brown_skua/Bird_Island/128289/2023	2023-10-08	avian_flu	Antarctica	Antarctica	Avian	EPI_ISL_18439564	Animal and Plant Health Agency (APHA) 	Animal and Plant Health Agency (APHA) 
