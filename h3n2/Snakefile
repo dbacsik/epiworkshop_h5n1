@@ -1,7 +1,6 @@
 """This file specifies the entire avian-flu pipeline that will be run, with
 specific parameters for subsampling, tree building, and visualization. In this
-build, you will generate 1 tree: an H5N1 tree for the HA genes. In this simple
-build, clade annotation and cleavage site annotation have been removed. This
+build, you will generate 1 tree: an H3N2 tree for the HA genes. This
 template should provide a reasonable starting place to customize your own build.
 Simply edit and add components to this Snakefile."""
 
@@ -9,13 +8,14 @@ Simply edit and add components to this Snakefile."""
 automatically repeat sampling steps."""
 wildcard_constraints:
     replicate=".*"
-REPLICATES = ["", "_alt1", "_alt2"]
+#REPLICATES = ["", "_alt1", "_alt2"] # uncomment this line to run multiple replicates
+REPLICATES = [""]
 
 """This rule tells Snakemak that at the end of the pipeline, you should have
 generated JSON files in the auspice folder for each subtype and segment."""
 rule all:
     input:
-        auspice_json = expand("auspice/epiworkshop_h5n1{replicate}.json", replicate=REPLICATES)
+        auspice_json = expand("auspice/epiworkshop_h3n2{replicate}.json", replicate=REPLICATES)
 
 """Specify all input files here. For this build, you'll start with input sequences
 from the data folder, which contain metadata information in the
@@ -41,12 +41,12 @@ files = rules.files.params
 traits_columns = 'region'
 
 """Sampling info for samples of interest."""
-group_by = 'region'
-sequences_per_group = '5000'
+group_by = 'region country month'
+sequences_per_group = '2'
 
 """Sampling scheme for background data."""
 bg_group_by = 'region country month'
-bg_sequences_per_group = '5'
+bg_sequences_per_group = '1'
 
 """Filter criteria."""
 """The minimum length required for sequences. Sequences shorter than these will be
@@ -54,7 +54,7 @@ subsampled out of the build."""
 min_length = 1600
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
-min_date = '1990'
+min_date = '2018'
 
 """This rule produces a single metadata file containing the region of interest and background.
 This is necessary since only one metadata file can be put into augur refine."""
@@ -64,7 +64,7 @@ rule merge_metadata:
         metadata = files.metadata,
         background_metadata = files.background_metadata
     output:
-        metadata = "results/merged_metadata_h5n1_ha.tsv"
+        metadata = "results/merged_metadata.tsv"
     shell:
         """
         cat {input.metadata} {input.background_metadata} > {output.metadata}
@@ -292,7 +292,7 @@ rule export:
         colors = files.colors,
         lat_longs = files.lat_longs
     output:
-        auspice_json = "auspice/epiworkshop_h5n1{replicate}.json"
+        auspice_json = "auspice/epiworkshop_h3n2{replicate}.json"
     shell:
         """
         augur export v2 \
