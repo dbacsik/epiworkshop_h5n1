@@ -14,7 +14,11 @@ def clean_strain_names(id):
     return output_id
 
 def deduplicate(df, column):
+    ## Print metrics
+    print(f"Originally, there were {len(df)} records.")
+    print(f"\tThere were {df[column].nunique()} unique records.")
     output_df = df.drop_duplicates(subset=column, keep='first')
+    print(f"\tAfter cleaning, there were {len(output_df)} records remaining.")
     return output_df
 
 # IO Functions
@@ -63,11 +67,6 @@ if __name__ == "__main__":
     ## Deduplicate
     working_df = pd.DataFrame(records, columns=["id", "seq"])
     output_df = deduplicate(working_df, "id")
-
-    ## Print metrics
-    print(f"Originally, there were {len(working_df)} records.")
-    print(f"\tThere were {working_df['id'].nunique()} unique records.")
-    print(f"\tAfter cleaning, there were {len(output_df)} records remaining.")
 
     ## Output cleaned FASTA
     print(f"Writing output FASTA file to {output_file}")
