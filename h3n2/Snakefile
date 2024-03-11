@@ -82,7 +82,7 @@ rule filter:
         """
     input:
         sequences = files.input_sequences,
-        metadata = files.metadata,
+        metadata = rules.merge_metadata.output.metadata,
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
@@ -122,7 +122,7 @@ rule filter_background:
         """
     input:
         bg_sequences = files.background_sequences,
-        bg_metadata = files.background_metadata,
+        bg_metadata = rules.merge_metadata.output.metadata,
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
