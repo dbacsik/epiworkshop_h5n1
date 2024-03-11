@@ -83,7 +83,7 @@ rule filter:
         """
     input:
         sequences = files.input_sequences,
-        metadata = files.metadata,
+        metadata = rules.merge_metadata.output.metadata,
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
@@ -123,7 +123,7 @@ rule filter_background:
         """
     input:
         bg_sequences = files.background_sequences,
-        bg_metadata = files.background_metadata,
+        bg_metadata = rules.merge_metadata.output.metadata,
         exclude = files.dropped_strains,
         include = files.include_strains
     output:
@@ -290,7 +290,7 @@ rule export:
     input:
         tree = rules.refine.output.tree,
         metadata = rules.merge_metadata.output.metadata,
-        node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data],
+        node_data = [rules.refine.output.node_data,rules.traits.output.node_data],
         auspice_config = files.auspice_config,
         colors = files.colors,
         lat_longs = files.lat_longs
