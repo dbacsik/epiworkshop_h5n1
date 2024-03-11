@@ -1,27 +1,8 @@
 # %%
 # Imports
 from Bio import SeqIO
-import argparse
 import pandas as pd
 import re
-import sys
-
-# Parse command line arguments
-parser=argparse.ArgumentParser()
-
-parser.add_argument("--input",
-                    type=str,
-                    required=True,
-                    help="Input file in FASTA format")
-parser.add_argument("--output",
-                    type=str,
-                    required=True,
-                    help="Output path")
-
-#args=parser.parse_args("--input h3n2/data/raw/south_america_Jun2018_Now.fasta --output tmp2.fasta".split())
-args=parser.parse_args()
-input_file = args.input
-output_file = args.output
 
 # Cleaning functions
 def clean_strain_names(id):
@@ -45,33 +26,51 @@ def write_fasta(df, filename):
             output_handle.write(header + "\n")
             output_handle.write(sequence + "\n")
 
-# Actions
-## Open and clean strain names
-print(f"Opening {input_file}\n\tCleaning strain names.")
-records = list()
-with open(input_file) as handle:
-    for record in SeqIO.parse(handle, "fasta"):
-        id = record.id.split("|")[0]
-        id = clean_strain_names(id)
-        seq = str(record.seq)
-        records.append([id,seq])
+# Script structure
+if __name__ == "__main__":
+    import argparse
+    import sys
 
-print("\tDeduplicating.")
-## Deduplicate
-working_df = pd.DataFrame(records, columns=["id", "seq"])
-output_df = deduplicate(working_df, "id")
+    # Parse command line arguments
+    parser=argparse.ArgumentParser()
 
-## Print metrics
-print(f"Originally, there were {len(working_df)} records.")
-print(f"\tThere were {working_df['id'].nunique()} unique records.")
-print(f"\tAfter cleaning, there were {len(output_df)} records remaining.")
+    parser.add_argument("--input",
+                        type=str,
+                        required=False,
+                        help="Input file in FASTA format")
+    parser.add_argument("--output",
+                        type=str,
+                        required=False,
+                        help="Output path")
 
-## Output cleaned FASTA
-print(f"Writing output FASTA file to {output_file}")
-output_df.set_index(keys='id')
-write_fasta(output_df, output_file)
+    #args=parser.parse_args("--input h3n2/data/raw/south_america_Jun2018_Now.fasta --output tmp2.fasta".split())
+    args=parser.parse_args()
+    input_file = args.input
+    output_file = args.output
 
+    # Actions
+    ## Open and clean strain names
+    print(f"Opening {input_file}\n\tCleaning strain names.")
+    records = list()
+    with open(input_file) as handle:
+        for record in SeqIO.parse(handle, "fasta"):
+            id = record.id.split("|")[0]
+            id = clean_strain_names(id)
+            seq = str(record.seq)
+            records.append([id,seq])
+
+    print("\tDeduplicating.")
+    ## Deduplicate
+    working_df = pd.DataFrame(records, columns=["id", "seq"])
+    output_df = deduplicate(working_df, "id")
+
+    ## Print metrics
+    print(f"Originally, there were {len(working_df)} records.")
+    print(f"\tThere were {working_df['id'].nunique()} unique records.")
+    print(f"\tAfter cleaning, there were {len(output_df)} records remaining.")
+
+    ## Output cleaned FASTA
+    print(f"Writing output FASTA file to {output_file}")
+    output_df.set_index(keys='id')
+    write_fasta(output_df, output_file)
 # %%
-
-
-
