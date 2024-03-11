@@ -7,6 +7,7 @@ A/Brown_skua/Bird_Island/128288/2023
 A/Brown_skua/Bird_Island/128289/2023
 
 # All South America
+
 # Argentina (n=55)
 A/Goose/Argentina/389-1/2023
 A/goose/Argentina/SENASA-140223/2023
@@ -280,7 +281,7 @@ A/Pelican/Venezuela/Pel3/2022
 A/Pelecanus_occidentalis/Venezuela/4S4/2022
 A/Pelecanus_occidentalis/Venezuela/3S4/2022
 
-# Central American Countries
+# All Central America
 # Costa Rica (n=5)
 A/falcon/Costa_Rica/INC-0001-D0377-23/2023
 A/pelican/Costa_Rica/INC-0018-D0370-23/2023
