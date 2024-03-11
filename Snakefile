@@ -10,6 +10,7 @@ automatically repeat sampling steps."""
 wildcard_constraints:
     replicate=".*"
 REPLICATES = ["", "_alt1", "_alt2"]
+seeds = {"": 0, "_alt1": 1, "_alt2": 2}
 
 """This rule tells Snakemak that at the end of the pipeline, you should have
 generated JSON files in the auspice folder for each subtype and segment."""
@@ -54,7 +55,7 @@ subsampled out of the build."""
 min_length = 1600
 
 """Sequences with sample collection dates earlier than these will be subsampled out of the build"""
-min_date = '1990'
+min_date = '2020'
 
 """This rule produces a single metadata file containing the region of interest and background.
 This is necessary since only one metadata file can be put into augur refine."""
@@ -92,8 +93,7 @@ rule filter:
         sequences_per_group = sequences_per_group,
         min_date = min_date,
         min_length = min_length,
-        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?"
-
+        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?",
     shell:
         """
         augur filter \
@@ -107,8 +107,7 @@ rule filter:
             --min-date {params.min_date} \
             --exclude-where {params.exclude_where} \
             --min-length {params.min_length} \
-            --non-nucleotide
-        """
+            --non-nucleotide        """
 
 """This rule filters and subsamples background datasets."""
 rule filter_background:
@@ -119,6 +118,8 @@ rule filter_background:
           - excluding strains in {input.exclude}
           - samples with missing region and country metadata
           - excluding strains prior to {params.min_date}
+          - Replicate {params.replicate}
+          - using seed {params.seed}
         """
     input:
         bg_sequences = files.background_sequences,
@@ -132,8 +133,9 @@ rule filter_background:
         bg_sequences_per_group = bg_sequences_per_group,
         min_date = min_date,
         min_length = min_length,
-        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?"
-
+        exclude_where = "host=laboratoryderived host=ferret host=unknown host=other country=? region=?",
+        replicate = lambda w: w.replicate,
+        seed = lambda w: seeds[w.replicate]
     shell:
         """
         augur filter \
@@ -147,7 +149,8 @@ rule filter_background:
             --min-date {params.min_date} \
             --exclude-where {params.exclude_where} \
             --min-length {params.min_length} \
-            --non-nucleotide
+            --non-nucleotide \
+            --subsample-seed {params.seed}
         """
 
 rule align:
