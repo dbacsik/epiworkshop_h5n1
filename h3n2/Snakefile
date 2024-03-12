@@ -8,8 +8,8 @@ Simply edit and add components to this Snakefile."""
 automatically repeat sampling steps."""
 wildcard_constraints:
     replicate=".*"
-#REPLICATES = ["", "_alt1", "_alt2"] # uncomment this line to run multiple replicates
-REPLICATES = [""]
+REPLICATES = ["", "_alt1", "_alt2"] # uncomment this line to run multiple replicates
+#REPLICATES = [""]
 seeds = {"": 0, "_alt1": 1, "_alt2": 2}
 
 """This rule tells Snakemak that at the end of the pipeline, you should have
