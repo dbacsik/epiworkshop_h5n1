@@ -4,6 +4,9 @@ results/
 build/
 logs/
 
+# Specific files
+h3n2/data/background.fasta # Too large
+
 # Local workflow dirs
 .ipython/
 data/.ipynb_checkpoints/
