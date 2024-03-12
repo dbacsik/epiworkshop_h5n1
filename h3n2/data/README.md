@@ -6,8 +6,12 @@ The header for the raw FASTA file from GISAID has the following format:
 
 # Cleaning
 Metadata is cleaned by (manually running) the Jupyter notebooks `clean_metadata.py.ipynb` in the `prep_data` directory.  
-Sequences are cleaned by (manually running) the python script `sanitize_sequences.py` in the `prep_data` directory. **This script must be run inside a Nextstrain shell**. Use the following command format:  
-```python3 sanitize_sequences.py --sequences southamerica_ha_seqs.fasta --output southamerica_ha_seqs_clean.fasta```
+
+Sequences are first concatenated by country by running the following command:  
+`cat data/raw/country*.fasta > data/raw/country_cat.fasta`
+
+Then, sequences are cleaned by (manually running) the python script `clean_seqs.py` in the `prep_data` directory. **This script must be run inside a Nextstrain shell**. Use the following command format:  
+```python3 clean_seqs.py --sequences southamerica_ha_seqs.fasta --output southamerica_ha_seqs_clean.fasta```
 
 # Concatentating
 Metadata and sequences are concatenated manually into single file for the region of interest and a single file for background data. The commands are as follows:
