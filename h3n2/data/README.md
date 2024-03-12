@@ -22,9 +22,9 @@ Metadata and sequences are concatenated manually into single file for the region
 2. Sequences for region of interest  
 ```cat south_america_clean.fasta > roi.fasta```
 
-<!-- 3. Metadata for background data  
-```cat data/clean/northmerica_metadata_clean.tsv > data/background_metadata.tsv```  
+3. Metadata for background data  
+```cat data/clean/background/*.tsv > data/background_metadata.tsv```  
 
 4. Sequences for background data
-```cat data/clean/northamerica_ha_seqs_clean.fasta > data/background_ha_seqs.fasta``` -->
+```cat data/clean/background/*.fasta > data/background.fasta```
 
