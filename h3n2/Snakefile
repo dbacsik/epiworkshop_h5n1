@@ -46,8 +46,8 @@ group_by = 'region country'
 sequences_per_group = '200'
 
 """Sampling scheme for background data."""
-bg_group_by = 'region country month'
-bg_sequences_per_group = '1'
+bg_group_by = 'region year'
+bg_sequences_per_group = '50'
 
 """Filter criteria."""
 """The minimum length required for sequences. Sequences shorter than these will be

@@ -1,3 +1,1 @@
 # list any strain names you would definitely like to EXCLUDE from your build here. 1 strain per line
-A/Parana/44706/2021 # Too far diverged
-A/South_Australia/1/2021 # Too far diverged
