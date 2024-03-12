@@ -32,11 +32,6 @@
       "type": "categorical"
     },
     {
-      "key": "host",
-      "title": "Host",
-      "type": "categorical"
-    },
-    {
       "key": "submitting_lab",
       "title": "Submitting lab",
       "type": "categorical"
@@ -56,7 +51,6 @@
     "color_by": "region"
   },
   "filters": [
-    "host",
     "region",
     "country",
     "submitting_lab",
