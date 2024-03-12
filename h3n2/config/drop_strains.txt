@@ -1,0 +1,1 @@
+# list any strain names you would definitely like to EXCLUDE from your build here. 1 strain per line
