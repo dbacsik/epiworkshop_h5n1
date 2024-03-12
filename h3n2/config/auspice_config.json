@@ -1,10 +1,10 @@
 {
-  "title": "Global Influenza A/H5N1 Outbreak (2021-Present) in South America",
+  "title": "Seasonal A/H3N2 Influenza (2018-Present) in South America",
   "maintainers": [
     {"name": "David Bacsik and Pablo Tsukayama",
     "url": "https://investigacion.cayetano.edu.pe/catalogo/saludintegral-genomicamicrobiana/"}
   ],
-  "build_url": "https://github.com/dbacsik/epiworkshop_h5n1",
+  "build_url": "https://github.com/dbacsik/epiworkshop_h5n1/tree/main/h3n2",
   "data_provenance": [
     {
       "name": "GISAID"
