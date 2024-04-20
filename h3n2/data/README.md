@@ -8,4 +8,4 @@ The header for the raw FASTA file from GISAID has the following format:
 Data was last downloaded from GISAID on April 13th, 2024. Latest data source includes sequences uploaded between 2024-03-08 and 2024-04-13.
 
 ## Cleaning
-Metadata is cleaned by (manually running) the Jupyter notebooks `clean_metadata.py.ipynb` in the `prep_data` directory.  
+Metadata is cleaned by (manually running) the Jupyter notebooks `clean_metadata.py.ipynb` in the `prep_data` directory.  There is one file for the region of interest and one for all background regions.
