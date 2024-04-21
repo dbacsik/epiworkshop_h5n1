@@ -24,10 +24,10 @@ sequence header. Specify here files denoting specific strains to include or drop
 references sequences, and files for auspice visualization"""
 rule files:
     params:
-        input_sequences = "data/roi.fasta",
-        metadata = "data/roi.tsv",
-        background_sequences = "data/background.fasta",
-        background_metadata = "data/background.tsv",
+        input_sequences = "results/clean_roi.fasta",
+        metadata = "data/clean/south_america_clean.tsv",
+        background_sequences = "results/clean_background.fasta",
+        background_metadata = "data/clean/background_clean.tsv",
         dropped_strains = "config/drop_strains.txt",
         include_strains = "config/include_strains.txt",
         reference = "config/reference.gb",
