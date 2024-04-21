@@ -48,7 +48,8 @@
   ],
   "display_defaults": {
     "map_triplicate": true,
-    "color_by": "region"
+    "color_by": "region",
+    "branch_label": "aa"
   },
   "filters": [
     "region",

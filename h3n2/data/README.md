@@ -1,30 +1,19 @@
 # README
-This data was downloaded manually from GISAID on 2024-03-08. All H3N2 HA sequences from 2018-06-01 to 2024-03-08 were downloaded from GISAID in FASTA format. Metadata was downloaded in XLS format.
+This data was downloaded manually from GISAID. All H3N2 HA sequences from 2018-06-01 to 2024-04-14 were downloaded from GISAID in FASTA format. Metadata was downloaded in XLS format.
 
 The header for the raw FASTA file from GISAID has the following format:
 `Isolate name`  
 
-# Cleaning
-Metadata is cleaned by (manually running) the Jupyter notebooks `clean_metadata.py.ipynb` in the `prep_data` directory.  
+## Updating data source
+Data was last downloaded from GISAID on April 13th, 2024. Latest data source includes sequences uploaded between 2024-03-08 and 2024-04-13.
 
-Sequences are first concatenated by country by running the following command:  
-`cat data/raw/country*.fasta > data/raw/country_cat.fasta`
+## Cleaning
+Metadata is cleaned by (manually running) the Jupyter notebooks `clean_metadata.py.ipynb` in the `prep_data` directory.  There is one file for the region of interest and one for all background regions.
 
-Then, sequences are cleaned by (manually running) the python script `clean_seqs.py` in the `prep_data` directory. **This script must be run inside a Nextstrain shell**. Use the following command format:  
-```python3 clean_seqs.py --sequences southamerica_ha_seqs.fasta --output southamerica_ha_seqs_clean.fasta```
+To clean sequences, first, all ROI FASTA files are concatenated. Likewise, all background FASTA files are concatenated:  
+`cat data/raw/roi/*.fasta > results/roi.fasta`  
+`cat data/raw/background/*.fasta > results/background.fasta`
 
-# Concatentating
-Metadata and sequences are concatenated manually into single file for the region of interest and a single file for background data. The commands are as follows:
-
-1. Metadata for region of interest  
-```cat south_america_clean.tsv > roi.tsv```  
-
-2. Sequences for region of interest  
-```cat south_america_clean.fasta > roi.fasta```
-
-3. Metadata for background data  
-```cat data/clean/background/*.tsv > data/background_metadata.tsv```  
-
-4. Sequences for background data
-```cat data/clean/background/*.fasta > data/background.fasta```
-
+Then, sequences are cleaned using the `clean_seqs.py` script:  
+`python data/clean_seqs.py --input results/roi.fasta --output clean_roi.fasta`  
+`python data/clean_seqs.py --input results/background.fasta --output clean_background.fasta`
