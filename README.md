@@ -13,5 +13,6 @@ The following results have been confirmed in 3 replicates, with random subsampli
 2. There were 3-5 other introductions around the same time that either did not spread widely or have not been adequately surveilled.
 3. The first sequences detected in South America were in Colombia (2022-10-09) and Peru (2022-11-10).
 4. The epidemic has generally spread from North to South, and has now reached Antarctica.
+5. The recent outbreak in North American dairy herds has significant uncertainty in rooting across my 3 replicates; I have low confidence in this relationship.
 
 *N.b.* One replicate showed a transmission event from South America into North America, however, I have not seen this in other trees I have produced. I am suspect of this finding and do not believe this is consistent with other groups' results.
