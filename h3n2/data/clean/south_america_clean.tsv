@@ -4372,13 +4372,6 @@ A/Parana/795/2024	2024-01-17	h3n2_flu	South America	Brazil	Human	EPI_ISL_1894680
 A/Santa_Catarina/780/2024	2024-01-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_18946809	Oswaldo Cruz Foundation	LACEN/RS - Laboratório Central de Saúde Pública do Rio Grande do Sul
 A/Santa_Catarina/784/2024	2024-01-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_18946810	Oswaldo Cruz Foundation	LACEN/RS - Laboratório Central de Saúde Pública do Rio Grande do Sul
 A/Sergipe/321/2024	2024-01-14	h3n2_flu	South America	Brazil	Human	EPI_ISL_18946813	Oswaldo Cruz Foundation	LACEN/SE - Laboratório Central de Saúde Pública de Sergipe - Instituto Parreira Horta
-A/Ecuador/GSB-CIQ-222/2023	2023-12-12	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18959308	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
-A/Ecuador/GSB-CIQ-225/2023	2023-12-03	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18959624	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
-A/Ecuador/GSB-1811-6712/2023	2023-12-13	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18960373	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
-A/Ecuador/GSB-CIQ-246/2023	2023-12-26	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18960661	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
-A/Ecuador/GSB-0343-184/2023	2023-12-26	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18960899	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
-A/Ecuador/GSB-1171-1508/2023	2023-12-28	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18960922	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
-A/Ecuador/GSB-1820-2151/2023	2023-12-24	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18960923	Instituto Nacional de Investigación en Salud Pública INSPI	Instituto Nacional de Investigación en Salud Pública INSPI
 A/Distrito_Federal/19510703/2022	2021-12-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951908	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19511835/2022	2021-12-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951909	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19513968/2021	2021-12-12	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951910	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
@@ -4397,10 +4390,6 @@ A/Distrito_Federal/19635733/2022	2022-01-10	h3n2_flu	South America	Brazil	Human	
 A/Distrito_Federal/19636005/2022	2022-01-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951988	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19639774/2022	2022-01-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951990	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19687548/2022	2022-01-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951992	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
-A/Distrito_Federal/21620352/2023	2023-03-23	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951993	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
-A/Distrito_Federal/21620898/2023	2023-03-23	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951994	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
-A/Distrito_Federal/21630290/2023	2023-03-24	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951995	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
-A/Distrito_Federal/21714322/2023	2023-04-12	h3n2_flu	South America	Brazil	Human	EPI_ISL_18951996	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19504947/2021	2021-12-09	h3n2_flu	South America	Brazil	Human	EPI_ISL_19037294	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19510703/2021	2021-12-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_19037295	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
 A/Distrito_Federal/19511835/2021	2021-12-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_19037296	Laboratório Central de Saúde Pública do Distrito Federal	Laboratório Central de Saúde Pública do Distrito Federal
@@ -4415,26 +4404,17 @@ A/Distrito_Federal/19568992/2021	2021-12-26	h3n2_flu	South America	Brazil	Human	
 A/Peru/LIM-UPCH-4136/2024	2024-01-25	h3n2_flu	South America	Peru	Human	EPI_ISL_19025519	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4137/2024	2024-02-01	h3n2_flu	South America	Peru	Human	EPI_ISL_19025520	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4138/2024	2024-02-02	h3n2_flu	South America	Peru	Human	EPI_ISL_19025521	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4140/2024	2024-02-07	h3n2_flu	South America	Peru	Human	EPI_ISL_19025523	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4141/2024	2024-02-08	h3n2_flu	South America	Peru	Human	EPI_ISL_19025524	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4143/2024	2024-02-09	h3n2_flu	South America	Peru	Human	EPI_ISL_19025526	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4144/2024	2024-02-10	h3n2_flu	South America	Peru	Human	EPI_ISL_19025527	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4146/2024	2024-02-12	h3n2_flu	South America	Peru	Human	EPI_ISL_19025529	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4148/2024	2024-02-08	h3n2_flu	South America	Peru	Human	EPI_ISL_19025531	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4149/2024	2024-01-20	h3n2_flu	South America	Peru	Human	EPI_ISL_19025532	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4142/2024	2024-02-08	h3n2_flu	South America	Peru	Human	EPI_ISL_19025535	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4145/2024	2024-02-10	h3n2_flu	South America	Peru	Human	EPI_ISL_19027960	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4147/2024	2024-02-12	h3n2_flu	South America	Peru	Human	EPI_ISL_19027961	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4150/2024	2024-01-22	h3n2_flu	South America	Peru	Human	EPI_ISL_19027962	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4151/2024	2024-01-23	h3n2_flu	South America	?	Human	EPI_ISL_19027963	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4152/2024	2024-01-11	h3n2_flu	South America	Peru	Human	EPI_ISL_19027964	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4153/2024	2024-01-29	h3n2_flu	South America	Peru	Human	EPI_ISL_19027965	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4154/2024	2024-02-01	h3n2_flu	South America	Peru	Human	EPI_ISL_19027966	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4155/2024	2024-02-02	h3n2_flu	South America	Peru	Human	EPI_ISL_19027967	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4156/2024	2024-02-05	h3n2_flu	South America	Peru	Human	EPI_ISL_19027968	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4157/2024	2024-02-08	h3n2_flu	South America	Peru	Human	EPI_ISL_19027969	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4158/2024	2024-01-18	h3n2_flu	South America	Peru	Human	EPI_ISL_19027970	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4159/2024	2024-01-17	h3n2_flu	South America	Peru	Human	EPI_ISL_19027971	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4160/2024	2024-01-17	h3n2_flu	South America	Peru	Human	EPI_ISL_19027972	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4161/2024	2024-01-18	h3n2_flu	South America	Peru	Human	EPI_ISL_19027973	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4234/2024	2024-02-14	h3n2_flu	South America	Peru	Human	EPI_ISL_19027974	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
@@ -4449,416 +4429,36 @@ A/Peru/LIM-UPCH-4242/2024	2024-02-20	h3n2_flu	South America	Peru	Human	EPI_ISL_1
 A/Peru/LIM-UPCH-4243/2024	2024-02-20	h3n2_flu	South America	Peru	Human	EPI_ISL_19027983	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4244/2024	2024-02-21	h3n2_flu	South America	Peru	Human	EPI_ISL_19027984	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4245/2024	2024-02-21	h3n2_flu	South America	Peru	Human	EPI_ISL_19027985	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Peru/LIM-UPCH-4246/2024	2024-02-22	h3n2_flu	South America	Peru	Human	EPI_ISL_19027986	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4247/2024	2024-02-23	h3n2_flu	South America	Peru	Human	EPI_ISL_19027987	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4248/2024	2024-02-19	h3n2_flu	South America	Peru	Human	EPI_ISL_19027988	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
 A/Peru/LIM-UPCH-4249/2024	2024-02-22	h3n2_flu	South America	Peru	Human	EPI_ISL_19027989	Universidad Peruana Cayetano Heredia	Instituto de Medicine Tropical Alexander von Humboldt - UPCH
-A/Sao_Paulo/1011/2024	2024-02-06	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984599	Oswaldo Cruz Foundation	University of São Paulo
-A/Amazonas/003969-IEC/2024	2024-01-18	h3n2_flu	South America	Brazil	Human	EPI_ISL_18988529	Evandro Chagas Institute 	LACEN/AM - Laboratório Central de Saúde Pública do Amazonas
-A/Amazonas/003970-IEC/2024	2024-01-24	h3n2_flu	South America	Brazil	Human	EPI_ISL_18988530	Evandro Chagas Institute 	LACEN/AM - Laboratório Central de Saúde Pública do Amazonas
-A/Amazonas/003973-IEC/2024	2024-01-25	h3n2_flu	South America	Brazil	Human	EPI_ISL_18988531	Evandro Chagas Institute 	LACEN/AM - Laboratório Central de Saúde Pública do Amazonas
-A/Amazonas/003978-IEC/2024	2024-01-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_18988618	Evandro Chagas Institute 	LACEN/AM - Laboratório Central de Saúde Pública do Amazonas
-A/Amazonas/003979-IEC/2024	2024-01-23	h3n2_flu	South America	Brazil	Human	EPI_ISL_18989249	Evandro Chagas Institute 	LACEN/AM - Laboratório Central de Saúde Pública do Amazonas
-A/Para/005531-IEC/2024	2024-01-13	h3n2_flu	South America	Brazil	Human	EPI_ISL_19008207	Evandro Chagas Institute 	Evandro Chagas Institute 
-A/Para/005533-IEC/2024	2024-02-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19008208	Evandro Chagas Institute 	Evandro Chagas Institute 
-A/Para/005534-IEC/2024	2024-02-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19008209	Evandro Chagas Institute 	Evandro Chagas Institute 
-A/Para/005535-IEC/2024	2024-02-13	h3n2_flu	South America	Brazil	Human	EPI_ISL_19008210	Evandro Chagas Institute 	Evandro Chagas Institute 
-A/Goias/IAL/520458651/2023	2023-11-30	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034316	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Goias/IAL/520458933/2023	2023-11-30	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034317	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357431470/2024	2024-01-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034318	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357433426/2024	2024-01-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034319	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357437571/2024	2024-01-10	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034320	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357536032/2024	2024-02-27	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034321	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357526376/2024	2024-02-26	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034322	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357520881/2024	2024-02-25	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034323	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357501276/2024	2024-02-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034324	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357504652/2024	2024-02-19	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034325	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357517019/2024	2024-02-22	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034326	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357530505/2024	2024-02-27	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034327	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357531205/2024	2024-02-27	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034328	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357539885/2024	2024-02-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034329	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357513972/2024	2024-02-21	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034330	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357435247/2024	2024-01-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034331	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357430429/2024	2024-01-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034332	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357427950/2024	2024-01-02	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034333	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357437081/2024	2024-01-09	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034334	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357443788/2024	2024-01-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034335	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357444080/2024	2024-01-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034336	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357423189/2023	2023-12-21	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034337	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/520466730/2024	2024-01-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034339	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357489246/2024	2024-02-12	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034340	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357559235/2024	2024-03-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034341	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357558405/2024	2024-03-06	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034342	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357570289/2024	2024-03-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034343	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357560798/2024	2024-03-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034344	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357554813/2024	2024-03-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034345	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Goias/IAL/520487597/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034346	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Goias/IAL/520494844/2024	2024-02-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034347	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Goias/IAL/520493346/2024	2024-02-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034348	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Goias/IAL/520499081/2024	2024-03-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034349	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357442100/2024	2024-01-14	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034350	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357464927/2024	2024-01-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034351	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357501432/2024	2024-02-18	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034352	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357496287/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034353	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357500517/2024	2024-02-17	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034354	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357442262/2024	2024-01-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034355	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357477593/2024	2024-02-06	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034356	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357478494/2024	2024-02-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034357	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357482598/2024	2024-02-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034358	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357490787/2024	2024-02-14	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034359	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357489387/2024	2024-02-12	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034360	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357490566/2024	2024-02-14	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034361	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/520467691/2024	2024-01-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034362	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357489591/2024	2024-02-14	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034363	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357481101/2024	2024-02-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034364	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357442085/2024	2024-01-14	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034365	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Espirito_Santo/IAL/357493978/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034366	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
 A/Sao_Paulo/IAL/357566123/2024	2024-03-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034367	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Sao_Paulo/IAL/357577375/2024	2024-03-12	h3n2_flu	South America	Brazil	Human	EPI_ISL_19034368	Instituto Adolfo Lutz	Instituto Adolfo Lutz - National Influenza Center
-A/Amazonas/003967-IEC/2024	2024-01-09	h3n2_flu	South America	Brazil	Human	EPI_ISL_18988113	Evandro Chagas Institute 	LACEN/AM - Laboratório Central de Saúde Pública do Amazonas
 A/Peru/LIM-UPCH-4139/2024	2024-02-05	h3n2_flu	South America	Peru	Human	EPI_ISL_19025522	Universidad Peruana Cayetano Heredia	INSTITUTO DE INVESTIGACION NUTRICIONAL /INSTITUTO DE MEDICINA TROPICAL SAN MARCOS
-A/Santiago/78580/2023	2023-10-09	h3n2_flu	South America	Chile	Human	EPI_ISL_18975253	Instituto de Salud Publica	Instituto de Salud Publica de Chile
-A/Santiago/79272/2023	2023-10-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19023418	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/79696/2023	2023-10-11	h3n2_flu	South America	Chile	Human	EPI_ISL_19023419	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/79700/2023	2023-10-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19023420	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/80851/2023	2023-10-18	h3n2_flu	South America	Chile	Human	EPI_ISL_19023421	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/81081/2023	2023-10-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19023422	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/81246/2023	2023-10-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19023423	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/81517/2023	2023-10-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19023424	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/81592/2023	2023-10-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19023425	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/81677/2023	2023-10-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19023426	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/81678/2023	2023-10-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19023427	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/82686/2023	2023-10-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19023428	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/83373/2023	2023-10-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19023429	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/83375/2023	2023-10-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19023430	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/83394/2023	2023-10-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19023431	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/84003/2023	2023-10-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19023432	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84118/2023	2023-10-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19023433	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84126/2023	2023-10-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19023434	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84802/2023	2023-11-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19023435	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84804/2023	2023-11-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19023436	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84805/2023	2023-10-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19023437	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84806/2023	2023-11-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19023438	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/84807/2023	2023-11-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19023439	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/85124/2023	2023-11-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19023440	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/86066/2023	2023-11-07	h3n2_flu	South America	Chile	Human	EPI_ISL_19023441	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/86667/2023	2023-11-11	h3n2_flu	South America	Chile	Human	EPI_ISL_19023442	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/86805/2023	2023-11-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19023443	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/86815/2023	2023-11-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19023444	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/86816/2023	2023-11-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19023445	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/87221/2023	2023-11-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19023446	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/87515/2023	2023-11-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19023447	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/88137/2023	2023-11-16	h3n2_flu	South America	Chile	Human	EPI_ISL_19023448	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/88791/2023	2023-11-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19023449	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/89037/2023	2023-11-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19023450	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/90160/2023	2023-11-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19023451	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/4143/2024	2024-01-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19023452	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/4145/2024	2024-01-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19023453	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/89473/2023	2023-11-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19023466	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/90159/2023	2023-11-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19023467	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/90259/2023	2023-11-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19023468	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/90316/2023	2023-11-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19023469	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/90687/2023	2023-11-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19023470	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/90970/2023	2023-11-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19023471	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/91543/2023	2023-11-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19023472	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/91848/2023	2023-11-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19023473	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/91992/2023	2023-11-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19023474	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/92154/2023	2023-11-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19023475	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/92428/2023	2023-12-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19023476	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/92746/2023	2023-12-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19023477	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/92887/2023	2023-12-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19023478	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/93913/2023	2023-12-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19023479	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/94167/2023	2023-12-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19023480	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/94168/2023	2023-12-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19023481	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/94169/2023	2023-12-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19023482	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/94457/2023	2023-12-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19023483	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/94458/2023	2023-12-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19023484	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/94832/2023	2023-12-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19023485	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/95521/2023	2023-12-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19023486	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/96238/2023	2023-12-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19023487	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/96297/2023	2023-12-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19023488	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/96774/2023	2023-12-18	h3n2_flu	South America	Chile	Human	EPI_ISL_19023489	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/97155/2023	2023-12-18	h3n2_flu	South America	Chile	Human	EPI_ISL_19023490	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/97287/2023	2023-12-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19023491	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/97566/2023	2023-12-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19023492	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/97571/2023	2023-12-18	h3n2_flu	South America	Chile	Human	EPI_ISL_19023493	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/97878/2023	2023-12-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19023494	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Temuco/98735/2023	2023-12-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19023495	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/98821/2023	2023-12-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19023496	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/98822/2023	2023-12-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19023497	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/98823/2023	2023-12-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19023498	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/98935/2023	2023-12-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19023499	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/98951/2023	2023-12-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19023500	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/99022/2023	2023-12-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19023501	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/99066/2023	2023-12-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19023502	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/99069/2023	2023-12-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19023503	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/99092/2023	2023-12-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19023504	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/318/2024	2023-12-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19023505	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/320/2024	2023-12-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19023506	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/808/2024	2023-12-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19023507	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/1225/2024	2023-12-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19023508	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/2758/2024	2024-01-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19023509	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/82419/2023	2023-10-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19023510	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/90483/2023	2023-11-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19023511	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/96240/2023	2023-12-12	h3n2_flu	South America	Chile	Human	EPI_ISL_19023512	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/97448/2023	2023-12-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19023513	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/98639/2023	2023-12-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19023514	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/99025/2023	2023-12-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19023515	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Ovalle/63028/2023	2023-08-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19024517	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/63754/2023	2023-08-16	h3n2_flu	South America	Chile	Human	EPI_ISL_19024518	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/64136/2023	2023-08-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19024519	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/64142/2023	2023-08-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19024520	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/64143/2023	2023-08-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19024521	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/66159/2023	2023-08-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19024522	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/66161/2023	2023-08-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19024523	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/66168/2023	2023-08-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19024524	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/66169/2023	2023-08-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19024525	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/68296/2023	2023-08-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19024526	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/68297/2023	2023-08-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19024527	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/68298/2023	2023-08-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19024528	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/68299/2023	2023-08-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19024529	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/68300/2023	2023-08-30	h3n2_flu	South America	Chile	Human	EPI_ISL_19024530	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/69738/2023	2023-09-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19024531	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/70295/2023	2023-09-07	h3n2_flu	South America	Chile	Human	EPI_ISL_19024532	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/70297/2023	2023-09-07	h3n2_flu	South America	Chile	Human	EPI_ISL_19024533	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/70302/2023	2023-09-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19024534	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/72239/2023	2023-09-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19024535	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/72443/2023	2023-09-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19024536	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/72444/2023	2023-09-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19024537	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/72447/2023	2023-09-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19024538	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/72448/2023	2023-09-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19024539	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/73455/2023	2023-09-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19024540	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/73457/2023	2023-09-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19024541	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/73459/2023	2023-09-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19024542	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/73460/2023	2023-09-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19024543	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/75524/2023	2023-09-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19024544	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/75525/2023	2023-09-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19024545	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/75527/2023	2023-09-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19024546	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/75529/2023	2023-09-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19024547	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/75535/2023	2023-09-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19024548	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/75626/2023	2023-09-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19024549	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/76314/2023	2023-09-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19024550	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/76923/2023	2023-10-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19024551	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/77246/2023	2023-10-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19024552	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/77813/2023	2023-10-07	h3n2_flu	South America	Chile	Human	EPI_ISL_19024553	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/77814/2023	2023-10-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19024554	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/77815/2023	2023-10-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19024555	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/77816/2023	2023-10-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19024556	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/77817/2023	2023-10-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19024557	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/52016/2023	2023-07-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19026056	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/52865/2023	2023-07-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19026057	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/52969/2023	2023-07-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19026058	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/52973/2023	2023-07-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19026059	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/52974/2023	2023-07-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19026060	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/53056/2023	2023-07-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19026061	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/53083/2023	2023-07-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19026062	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/53460/2023	2023-07-07	h3n2_flu	South America	Chile	Human	EPI_ISL_19026063	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/53711/2023	2023-07-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19026064	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/53713/2023	2023-07-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19026065	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/54607/2023	2023-07-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19026066	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/54608/2023	2023-07-11	h3n2_flu	South America	Chile	Human	EPI_ISL_19026067	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/54713/2023	2023-07-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19026068	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/54764/2023	2023-07-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19026069	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/55107/2023	2023-07-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19026070	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/55110/2023	2023-07-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19026071	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/55176/2023	2023-07-16	h3n2_flu	South America	Chile	Human	EPI_ISL_19026072	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/55427/2023	2023-07-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19026073	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/55447/2023	2023-07-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19026074	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/55786/2023	2023-07-18	h3n2_flu	South America	Chile	Human	EPI_ISL_19026075	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/56834/2023	2023-07-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19026076	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/56835/2023	2023-07-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19026077	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/56877/2023	2023-07-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19026078	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/57332/2023	2023-07-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19026100	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/57986/2023	2023-07-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19026101	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/58464/2023	2023-07-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19026102	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/58482/2023	2023-07-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19026103	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/58703/2023	2023-07-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19026104	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/58705/2023	2023-07-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19026105	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/58706/2023	2023-07-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19026106	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/58978/2023	2023-07-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19026107	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Temuco/59270/2023	2023-07-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19026108	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Temuco/59274/2023	2023-07-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19026109	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/60202/2023	2023-08-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19026110	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/60223/2023	2023-07-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19026207	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/60422/2023	2023-08-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19026208	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/60688/2023	2023-07-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19026209	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/60874/2023	2023-08-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19026210	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/60876/2023	2023-08-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19026211	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/60877/2023	2023-08-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19026212	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/60878/2023	2023-07-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19026213	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valdivia/61048/2023	2023-08-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19026214	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/62168/2023	2023-08-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19026215	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vallenar/62265/2023	2023-08-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19026216	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Calama/62266/2023	2023-08-07	h3n2_flu	South America	Chile	Human	EPI_ISL_19026217	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/62410/2023	2023-08-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19026218	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/62659/2023	2023-08-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19026219	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/62660/2023	2023-08-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19026220	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/62661/2023	2023-08-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19026223	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/63756/2023	2023-08-11	h3n2_flu	South America	Chile	Human	EPI_ISL_19026224	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/46921/2023	2023-06-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027748	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/47030/2023	2023-12-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027749	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Concepci?n/47224/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027750	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/San_Antonio/47314/2023	2023-07-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027751	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/47401/2023	2023-06-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19027752	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/47874/2023	2023-12-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027753	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/47983/2023	2023-12-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027754	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/47984/2023	2023-06-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19027755	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/48002/2023	2023-12-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027756	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/48003/2023	2023-06-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19027757	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/48010/2023	2023-06-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19027758	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Molina/48037/2023	2023-06-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19027759	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/48117/2023	2023-06-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19027760	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/48119/2023	2023-06-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19027761	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/48234/2023	2023-06-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19027762	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/48252/2023	2023-06-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19027763	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/48255/2023	2023-08-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027764	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/48280/2023	2023-06-13	h3n2_flu	South America	Chile	Human	EPI_ISL_19027765	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Melipilla/48324/2023	2023-06-16	h3n2_flu	South America	Chile	Human	EPI_ISL_19027766	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/48331/2023	2023-06-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19027767	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/48614/2023	2023-06-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19027768	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/48634/2023	2023-06-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19027769	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/48635/2023	2023-06-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19027770	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Ovalle/48655/2023	2023-06-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19027771	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/48700/2023	2023-06-18	h3n2_flu	South America	Chile	Human	EPI_ISL_19027772	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/48702/2023	2023-06-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19027773	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/48708/2023	2023-06-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19027774	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/48713/2023	2023-06-17	h3n2_flu	South America	Chile	Human	EPI_ISL_19027775	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/48949/2023	2023-06-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19027776	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Ovalle/49012/2023	2023-06-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19027777	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/49218/2023	2023-06-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19027778	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/49313/2023	2023-06-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19027779	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/49374/2023	2023-06-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19027780	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/49375/2023	2023-06-14	h3n2_flu	South America	Chile	Human	EPI_ISL_19027781	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Temuco/49718/2023	2023-05-30	h3n2_flu	South America	Chile	Human	EPI_ISL_19027782	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/49740/2023	2023-06-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19027783	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/49826/2023	2023-06-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19027784	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/50186/2023	2023-06-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027785	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/50190/2023	2023-06-21	h3n2_flu	South America	Chile	Human	EPI_ISL_19027786	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/50363/2023	2023-06-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19027787	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/50599/2023	2023-06-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027788	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/50832/2023	2023-06-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19027789	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/50972/2023	2023-06-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19027790	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/44522/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027791	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/44545/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027792	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/44641/2023	2023-01-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027793	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Ovalle/44687/2023	2023-03-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027794	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/44711/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027795	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/44712/2023	2023-05-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19027796	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/44713/2023	2023-05-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19027797	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/44763/2023	2023-02-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027798	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/44783/2023	2023-03-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027799	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/San_Antonio/44991/2023	2023-03-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027800	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/45014/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027801	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/45283/2023	2023-05-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027802	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/45355/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027803	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Calama/45360/2023	2023-05-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19027804	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/45549/2023	2023-01-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027805	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/45583/2023	2023-06-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027806	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/45649/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027807	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/45744/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027808	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/45916/2023	2023-03-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027809	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/46158/2023	2023-05-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027810	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/46159/2023	2023-05-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027811	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/46160/2023	2023-05-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027812	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/46182/2023	2023-07-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027813	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/46187/2023	2023-02-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027814	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Concepci?n/46232/2023	2023-05-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19027815	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/46242/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027816	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/46452/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027817	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/46523/2023	2023-10-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027818	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/46573/2023	2023-10-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027819	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/46609/2023	2023-08-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027820	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vina_del_Mar/46640/2023	2023-07-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027821	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/46700/2023	2023-09-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027822	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Ovalle/46709/2023	2023-09-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027823	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/46846/2023	2023-10-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027824	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/46852/2023	2023-11-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027825	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vallenar/46894/2023	2023-05-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19027826	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Copiapo/46899/2023	2023-04-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027827	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Copiapo/46901/2023	2023-02-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027828	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/46919/2023	2023-06-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027829	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/46920/2023	2023-06-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19027830	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/42046/2023	2023-05-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19027831	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/42065/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027832	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/42197/2023	2023-05-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19027833	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/42378/2023	2023-05-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19027834	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/42379/2023	2023-05-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19027835	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/42380/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027836	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/42381/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027837	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/42382/2023	2023-05-20	h3n2_flu	South America	Chile	Human	EPI_ISL_19027838	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/42389/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027839	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/42426/2023	2023-05-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19027840	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/42520/2023	2023-05-15	h3n2_flu	South America	Chile	Human	EPI_ISL_19027841	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/42606/2023	2023-05-19	h3n2_flu	South America	Chile	Human	EPI_ISL_19027842	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Salamanca/42645/2023	2023-05-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19027843	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/42780/2023	2023-05-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19027844	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/42897/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027845	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/43085/2023	2023-05-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19027846	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/43088/2023	2023-05-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19027847	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/43143/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027848	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/43311/2023	2023-05-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19027849	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/43355/2023	2023-05-22	h3n2_flu	South America	Chile	Human	EPI_ISL_19027933	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/43357/2023	2023-05-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19027934	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/43435/2023	2023-05-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19027935	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/43006/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027936	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/43050/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027937	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/43095/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027938	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/43352/2023	2023-05-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19027939	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Punta_Arenas/43354/2023	2023-05-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19027940	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/43434/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027941	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/43491/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027942	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/43599/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027943	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/43830/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027944	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/43856/2023	2023-05-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19027952	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/44062/2023	2023-05-30	h3n2_flu	South America	Chile	Human	EPI_ISL_19027953	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/44096/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027954	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Antofagasta/44097/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027955	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/44223/2023	2023-05-30	h3n2_flu	South America	Chile	Human	EPI_ISL_19027956	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Concepci?n/44437/2023	2023-05-31	h3n2_flu	South America	Chile	Human	EPI_ISL_19027957	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Concepci?n/44440/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027958	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/44443/2023	2023-05-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19027959	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/36967/2023	2023-05-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19029377	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/37069/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19029379	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/San_Antonio/37137/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19029380	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vina_del_Mar/37348/2023	2023-05-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19029381	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/37402/2023	2023-05-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19029382	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/37423/2023	2023-05-06	h3n2_flu	South America	Chile	Human	EPI_ISL_19029383	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/37454/2023	2023-05-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19029384	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/37518/2023	2023-04-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19029385	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/37592/2023	2023-05-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19029386	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/37596/2023	2023-05-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19029387	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/38029/2023	2023-05-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19029388	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/San_Antonio/38137/2023	2023-05-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19029389	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/38148/2023	2023-05-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19029390	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/38513/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19029391	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/38516/2023	2023-04-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19029589	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Alto_Hospicio/38517/2023	2023-05-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19029590	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/38526/2023	2023-04-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19029591	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/38602/2023	2023-05-08	h3n2_flu	South America	Chile	Human	EPI_ISL_19029592	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Linares/38786/2023	2023-05-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19029593	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/38821/2023	2023-05-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19029594	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/39002/2023	2023-05-10	h3n2_flu	South America	Chile	Human	EPI_ISL_19029595	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vina_del_Mar/39007/2023	2023-05-05	h3n2_flu	South America	Chile	Human	EPI_ISL_19029596	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vina_del_Mar/39013/2023	2023-05-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19029597	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/39044/2023	2023-05-11	h3n2_flu	South America	Chile	Human	EPI_ISL_19029598	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vina_del_Mar/39283/2023	2023-05-11	h3n2_flu	South America	Chile	Human	EPI_ISL_19029599	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Vina_del_Mar/39284/2023	2023-05-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19029600	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/33525/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030071	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/33553/2023	2023-04-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19030072	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/La_Serena/33699/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030073	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/33828/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030074	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Temuco/34076/2023	2023-04-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19030075	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Chill?n/34159/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030076	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/34236/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030077	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/San_Antonio/34414/2023	2023-04-23	h3n2_flu	South America	Chile	Human	EPI_ISL_19030078	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/34436/2023	2023-04-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19030079	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Arica/34625/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030080	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Coyhaique/34972/2023	2023-04-24	h3n2_flu	South America	Chile	Human	EPI_ISL_19030081	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/35105/2023	2023-04-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19030082	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/35132/2023	2023-04-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19030083	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/35163/2023	2023-04-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19030084	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/35283/2023	2023-04-25	h3n2_flu	South America	Chile	Human	EPI_ISL_19030085	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/35805/2023	2023-05-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19030086	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/416/2023	2023-01-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19030132	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Santiago/726/2023	2023-01-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19030133	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Antofagasta/1497/2023	2023-01-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19030134	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
@@ -4870,70 +4470,7 @@ A/Santiago/4618/2023	2023-01-16	h3n2_flu	South America	Chile	Human	EPI_ISL_19030
 A/Antofagasta/13081/2023	2023-02-09	h3n2_flu	South America	Chile	Human	EPI_ISL_19030140	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Arica/27438/2023	2023-03-26	h3n2_flu	South America	Chile	Human	EPI_ISL_19030141	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
 A/Antofagasta/31896/2023	2023-04-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19030142	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/35806/2023	2023-05-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19030143	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/35807/2023	2023-04-29	h3n2_flu	South America	Chile	Human	EPI_ISL_19030144	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/35808/2023	2023-04-28	h3n2_flu	South America	Chile	Human	EPI_ISL_19030145	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Iquique/35823/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19030146	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Rancagua/35956/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19030147	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/36072/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19030148	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Talca/36285/2023	2023-05-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19030149	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/36346/2023	2023-04-27	h3n2_flu	South America	Chile	Human	EPI_ISL_19030150	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Curico/36713/2023	2023-04-30	h3n2_flu	South America	Chile	Human	EPI_ISL_19030151	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/36795/2023	2023-05-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19030152	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/36796/2023	2023-05-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19030153	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/36797/2023	2023-05-01	h3n2_flu	South America	Chile	Human	EPI_ISL_19030154	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Puerto_Montt/36798/2023	2023-05-02	h3n2_flu	South America	Chile	Human	EPI_ISL_19030155	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/36802/2023	2023-05-03	h3n2_flu	South America	Chile	Human	EPI_ISL_19030156	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/36872/2023	2023-05-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19030157	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Santiago/36886/2023	2023-05-04	h3n2_flu	South America	Chile	Human	EPI_ISL_19030158	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Valpara?so/31347/2023	2023-04-12	h3n2_flu	South America	Chile	Human	EPI_ISL_19030159	Instituto de Salud Publica de Chile	Instituto de Salud Publica de Chile
-A/Paraguay/775256/2024	2024-01-15	h3n2_flu	South America	Paraguay	Human	EPI_ISL_18966473	Laboratorio Central de Salud Publica	Laboratorio Central de Salud Publica
-A/Paraguay/774998/2024	2024-01-09	h3n2_flu	South America	Paraguay	Human	EPI_ISL_18967416	Laboratorio Central de Salud Publica	Laboratorio Central de Salud Publica
-A/Paraguay/773286/2023	2023-11-21	h3n2_flu	South America	Paraguay	Human	EPI_ISL_18967420	Laboratorio Central de Salud Publica	Laboratorio Central de Salud Publica
-A/_Paraguay/_763675/2023	2023-07-09	h3n2_flu	South America	Paraguay	Human	EPI_ISL_18985093	Laboratorio Central de Salud Publica	Laboratorio Central de Salud Publica
-A/_Paraguay/_763697/2024	2023-07-09	h3n2_flu	South America	Paraguay	Human	EPI_ISL_18985094	Laboratorio Central de Salud Publica	Laboratorio Central de Salud Publica
-A/_Paraguay/_763857/2023	2023-07-05	h3n2_flu	South America	Paraguay	Human	EPI_ISL_18985095	Laboratorio Central de Salud Publica	Laboratorio Central de Salud Publica
-A/Alagoas/1201/2024	2024-02-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984606	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1202/2024	2024-02-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984607	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1203/2024	2024-02-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984608	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1204/2024	2024-02-13	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984609	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1205/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984610	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1944/2024	2024-03-02	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009000	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
 A/Alagoas/204/2024	2024-01-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009001	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1446/2024	2024-02-23	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009002	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1968/2024	2024-03-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009003	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1961/2024	2024-03-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009004	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1967/2024	2024-03-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009005	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1448/2024	2024-02-17	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009006	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1953/2024	2024-03-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009007	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1950/2024	2024-03-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009009	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1438/2024	2024-02-21	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009010	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1942/2024	2024-03-01	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009011	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1955/2024	2024-03-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009012	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1439/2024	2024-02-21	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009014	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1937/2024	2024-02-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009015	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1442/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009016	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1445/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009017	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1966/2024	2024-03-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009018	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1954/2024	2024-03-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009019	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1951/2024	2024-03-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009020	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1948/2024	2024-03-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009021	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1434/2024	2024-02-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009022	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1441/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009023	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1444/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009024	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1956/2024	2024-03-03	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009026	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1436/2024	2024-02-21	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009027	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/605/2024	2024-01-12	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009028	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1938/2024	2024-02-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009029	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1946/2024	2024-03-01	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009030	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/1949/2024	2024-03-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009031	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Alagoas/609/2024	2024-01-28	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009032	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública de Alagoas, LACEN-AL
-A/Bahia/1093/2024	2024-02-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984600	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
-A/Bahia/1094/2024	2024-02-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984601	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
-A/Bahia/1095/2024	2024-02-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984602	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
-A/Bahia/1096/2024	2024-02-06	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984603	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
-A/Bahia/1098/2024	2024-02-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984604	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
-A/Bahia/1100/2024	2024-02-09	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984605	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
 A/Bahia/1092/2024	2024-01-31	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984615	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
 A/Bahia/1099/2024	2024-02-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984616	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
 A/Bahia/1394/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984625	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
@@ -4942,23 +4479,8 @@ A/Bahia/1403/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_1898462
 A/Bahia/1668/2024	2024-02-22	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009033	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
 A/Bahia/1398/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009034	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
 A/Bahia/1402/2024	2024-02-19	h3n2_flu	South America	Brazil	Human	EPI_ISL_19012324	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública Professor Gonçalo Moniz, LACEN-BA
-A/Sergipe/1770/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011029	Oswaldo Cruz Foundation	LACEN/SE - Laboratório Central de Saúde Pública de Sergipe - Instituto Parreira Horta
-A/Sergipe/1771/2024	2024-02-05	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011030	Oswaldo Cruz Foundation	LACEN/SE - Laboratório Central de Saúde Pública de Sergipe - Instituto Parreira Horta
 A/Sergipe/1767/2024	2024-02-20	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011031	Oswaldo Cruz Foundation	LACEN/SE - Laboratório Central de Saúde Pública de Sergipe - Instituto Parreira Horta
 A/Sergipe/1768/2024	2024-02-21	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011032	Oswaldo Cruz Foundation	LACEN/SE - Laboratório Central de Saúde Pública de Sergipe - Instituto Parreira Horta
-A/Rio_Grande_do_Sul/1346/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011024	Oswaldo Cruz Foundation	LACEN/RS - Laboratório Central de Saúde Pública do Rio Grande do Sul
-A/Ecuador/5571/2024	2024-01-30	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18991458	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/5982/2024	2024-01-08	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18991827	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/5433/2023	2023-12-14	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18991830	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/5561/2024	2024-01-27	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18991831	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/7242/2023	2023-10-11	h3n2_flu	South America	Ecuador	Human	EPI_ISL_18991832	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/5981/2024	2024-01-08	h3n2_flu	South America	Ecuador	Human	EPI_ISL_19034512	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/5387/2023	2023-12-03	h3n2_flu	South America	Ecuador	Human	EPI_ISL_19034513	Centers for Disease Control and Prevention	INSPI
-A/Ecuador/0596/2024	2024-01-07	h3n2_flu	South America	Ecuador	Human	EPI_ISL_19034535	Centers for Disease Control and Prevention	INSPI
-A/Venezuela/1862/2023	2023-08-31	h3n2_flu	South America	Venezuela	Human	EPI_ISL_19014613	Centers for Disease Control and Prevention	"Instituto Nacional de Higiene ""Rafael Rangel"""
-A/Rio_Grande_do_Sul/1344/2024	2024-02-13	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984611	Oswaldo Cruz Foundation	LACEN SC
-A/Rio_Grande_do_Sul/1345/2024	2024-02-10	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984612	Oswaldo Cruz Foundation	LACEN SC
-A/Rio_Grande_do_Sul/1347/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984613	Oswaldo Cruz Foundation	LACEN SC
 A/Rio_Grande_do_Sul/1326/2024	2024-01-29	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984617	Oswaldo Cruz Foundation	LACEN SC
 A/Rio_Grande_do_Sul/1327/2024	2024-02-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984618	Oswaldo Cruz Foundation	LACEN SC
 A/Rio_Grande_do_Sul/1328/2024	2024-02-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984619	Oswaldo Cruz Foundation	LACEN SC
@@ -4968,15 +4490,11 @@ A/Rio_Grande_do_Sul/1335/2024	2024-01-29	h3n2_flu	South America	Brazil	Human	EPI
 A/Rio_Grande_do_Sul/1336/2024	2024-01-27	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984623	Oswaldo Cruz Foundation	LACEN SC
 A/Rio_Grande_do_Sul/1339/2024	2024-02-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984624	Oswaldo Cruz Foundation	LACEN SC
 A/Santa_Catarina/349/2024	2024-01-06	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011018	Oswaldo Cruz Foundation	LACEN SC
-A/Rio_de_Janeiro/2145/2024	2024-01-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009035	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
-A/Rio_de_Janeiro/2136/2024	2024-01-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009037	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/2148/2024	2024-01-30	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009038	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/2146/2024	2024-02-07	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009039	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/2157/2024	2024-02-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009040	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
-A/Rio_de_Janeiro/2149/2024	2024-02-02	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009041	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/2147/2024	2024-01-10	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009045	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/2137/2024	2024-02-01	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011002	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
-A/Rio_de_Janeiro/2156/2024	2024-02-16	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011008	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/2144/2024	2024-02-11	h3n2_flu	South America	Brazil	Human	EPI_ISL_19011013	Oswaldo Cruz Foundation	Laboratório Central de Saúde Pública (LACEN RJ)
 A/Rio_de_Janeiro/937/2024	2024-02-15	h3n2_flu	South America	Brazil	Human	EPI_ISL_18984614	Oswaldo Cruz Foundation	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
 A/Rio_de_Janeiro/1369/2024	2024-02-27	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009036	Oswaldo Cruz Foundation	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
@@ -4986,5 +4504,3 @@ A/Rio_de_Janeiro/1765/2024	2024-03-08	h3n2_flu	South America	Brazil	Human	EPI_IS
 A/Rio_de_Janeiro/1643/2024	2024-03-06	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009047	Oswaldo Cruz Foundation	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
 A/Rio_de_Janeiro/1762/2024	2024-03-08	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009048	Oswaldo Cruz Foundation	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
 A/Rio_de_Janeiro/1581/2024	2024-03-01	h3n2_flu	South America	Brazil	Human	EPI_ISL_19009049	Oswaldo Cruz Foundation	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
-A/Rio_de_Janeiro/703/2024	2024-02-04	h3n2_flu	South America	Brazil	Human	EPI_ISL_19010997	Oswaldo Cruz Foundation	Instituto Oswaldo Cruz FIOCRUZ - Laboratory of Respiratory Viruses and Measles (LVRS)
-A/Sula_leucogaster/Brazil-PR/A0001-IBTEC	2023-07-25	h3n2_flu	South America	Brazil	Wild bird	EPI_ISL_18975372	São Paulo State University - Biotechnology Institute	Laboratorio de Ecologia e Conservação
