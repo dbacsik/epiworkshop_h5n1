@@ -290,7 +290,7 @@ rule export:
     input:
         tree = rules.refine.output.tree,
         metadata = rules.merge_metadata.output.metadata,
-        node_data = [rules.refine.output.node_data,rules.traits.output.node_data],
+        node_data = [rules.refine.output.node_data,rules.traits.output.node_data,rules.ancestral.output.node_data,rules.translate.output.node_data],
         auspice_config = files.auspice_config,
         colors = files.colors,
         lat_longs = files.lat_longs
